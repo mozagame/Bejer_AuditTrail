@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.53.65422.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Recipe1.RecipeL1" TargetProperty="Value" Source="Tags.RecipeL1" />
+        <Item Target="Recipe1.RecipeL2" TargetProperty="Value" Source="Tags.RecipeL2" />
+        <Item Target="Recipe1.RecipeL3" TargetProperty="Value" Source="Tags.RecipeL3" />
+        <Item Target="Recipe1.RecipeL4" TargetProperty="Value" Source="Tags.RecipeL4" />
+        <Item Target="Recipe1.RecipeLSpeed" TargetProperty="Value" Source="Tags.RecipeLSpeed" />
+        <Item Target="Recipe1.RecipeLInformation" TargetProperty="Value" Source="Tags.RecipeInfo" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

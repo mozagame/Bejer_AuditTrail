@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<nacs:ScreenWindow Topmost="False" Title="Audit" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" StyleName="Default" IsCacheable="True" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.AuditTrail;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.Audit">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
+    <naca:AuditTrailViewer VistaStyle="True" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AuditTrailViewer" Width="970.852470671881" Height="668.348382509776" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="17.4276573053679" Canvas.Top="83.379736935656">
+      <naca:AuditTrailViewer.VisibleColumns>
+        <x:Array Type="nai:IColumnInfo">
+          <nacl:AlarmColumnInfo MappingName="Message" HeaderName="Message" ColumnWidth="344.85247067188084" />
+          <nacl:AlarmColumnInfo MappingName="Description" HeaderName="Description" ColumnWidth="110" />
+          <nacl:AlarmColumnInfo MappingName="ValueBefore" HeaderName="Value Before" ColumnWidth="130" />
+          <nacl:AlarmColumnInfo MappingName="ValueAfter" HeaderName="Value After" ColumnWidth="120" />
+          <nacl:AlarmColumnInfo MappingName="TimeStamp" HeaderName="Time Stamp" ColumnWidth="120" />
+          <nacl:AlarmColumnInfo MappingName="UserName" HeaderName="User Name" ColumnWidth="120" />
+        </x:Array>
+      </naca:AuditTrailViewer.VisibleColumns>
+    </naca:AuditTrailViewer>
+    <nac:Button Text="Back" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="97.1944543192323" Height="46.7510263946187" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="891.085673658016" Canvas.Top="13.339695254866" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai1:ActionProperties.Actions>
+        <nai1:ActionList>
+          <nata:Action Name="Show Previous Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ActionBackScreen" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IScreenManager&gt;()" EventName="Click" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai1:ActionList>
+      </nai1:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

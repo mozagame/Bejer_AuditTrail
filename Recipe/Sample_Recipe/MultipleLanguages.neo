@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageServer, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="MultipleLanguages" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3">
+    <ResourceItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric1" PropertyName="Prefix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Current Settings:    " />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric1" PropertyName="Suffix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric2" PropertyName="Prefix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric2" PropertyName="Suffix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="OFFLINE EDIT" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text3" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Information" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text4" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Setpoint Speed  %" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric3" PropertyName="Prefix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="AnalogNumeric3" PropertyName="Suffix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Machine Settings" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text5" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Offline Editing" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Recipe Actions" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Backg_bh1_T150" ObjectName="Button12" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Home" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Backg_bh1_T150" ObjectName="Button25" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Prev" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Backg_bh1_T150" ObjectName="Button17" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Next" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Backg_bh1_T150" ObjectName="Button2" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Backg_bh1_T150" ObjectName="Button14" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="LogIn" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button27" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Save" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button28" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Load" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button7" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Delete" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button6" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Exit" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button26" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Edit" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Text1" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Recipe Management" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Change screens" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Back" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Security Management" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text6" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="V313" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text3" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="V314" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text4" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Tank 1" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text5" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="V315" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text1" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="V316&#xD;&#xA;V316" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text12" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Tank 2" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text17" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="UserName: user&#xD;&#xA;Password:  user&#xD;&#xA;&#xD;&#xA;UserName: advuser&#xD;&#xA;Password:  advuser&#xD;&#xA;&#xD;&#xA;UserName: admin&#xD;&#xA;Password:  admin&#xD;&#xA;" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text18" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(authorized to change V313 and V314) &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(authorized to change V315 and V316)  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(adminstrator rights including authorization&#xD;&#xA; to import/export users)" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text19" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="User information and user groups:" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text8" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="User Administration:" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Text9" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Clicking the &quot;Import&quot; button allows you to import the user database from a USB memory stick.&#xD;&#xA;Clicking the &quot;Export&quot; button allows you to export the user database to a USB memory stick.&#xD;&#xA;" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button19" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Import" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button15" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Logout" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button3" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Login" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button16" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Export" />
+        </ReferenceValue>
+      </Object>
+    </ResourceItems>
+  </Object>
+</NeoItem>

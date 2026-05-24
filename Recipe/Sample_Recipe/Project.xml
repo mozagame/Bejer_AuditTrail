@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.53.65422.0" ProjectRevision="29">
+  <Guid>4f6829d4-c73e-4987-9813-14f0d4256bd3</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-05-25T00:41:29.8222971+07:00" Length="23678" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2026-05-25T00:41:29.8453171+07:00" Length="490" />
+    <ProjectFile Name="Symbols\close.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="7189" />
+    <ProjectFile Name="Symbols\delete recipe.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5927" />
+    <ProjectFile Name="Symbols\load recipe.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="4843" />
+    <ProjectFile Name="Symbols\recipe.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="4312" />
+    <ProjectFile Name="Symbols\save recipe.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="4256" />
+    <ProjectFile Name="Symbols\switch 1a.gif" ModifiedDate="2025-05-15T11:52:36+07:00" Length="8148" />
+    <ProjectFile Name="Symbols\switch 1b.gif" ModifiedDate="2025-05-15T11:52:36+07:00" Length="7493" />
+    <ProjectFile Name="Symbols\led_red.lib" ModifiedDate="2025-05-15T11:52:36+07:00" Length="33316" />
+    <ProjectFile Name="Symbols\led_white_off.lib" ModifiedDate="2025-05-15T11:52:36+07:00" Length="30321" />
+    <ProjectFile Name="Symbols\valveoff (1).bmp" ModifiedDate="2025-05-15T11:52:36+07:00" Length="9878" />
+    <ProjectFile Name="Symbols\valveon (1).bmp" ModifiedDate="2025-05-15T11:52:36+07:00" Length="9878" />
+    <ProjectFile Name="Symbols\previous user.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5444" />
+    <ProjectFile Name="Symbols\log out.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="4493" />
+    <ProjectFile Name="Symbols\log in.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="4963" />
+    <ProjectFile Name="Symbols\next user.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5569" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2026-05-25T00:41:29.8522964+07:00" Length="519" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2026-05-25T00:41:29.8562993+07:00" Length="791" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-05-25T00:41:29.8862947+07:00" Length="19817" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="1006" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="511" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="6405" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-05-24T23:42:03.874425+07:00" Length="13463" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="497" />
+    <ProjectFile Name="AuditTrail.neo" ModifiedDate="2026-05-25T00:26:20.0236018+07:00" Length="10572" />
+    <ProjectFile Name="Recipe.neoxaml" ModifiedDate="2026-05-25T00:41:30.0022943+07:00" Length="834" />
+    <ProjectFile Name="Recipe.Script.cs" ModifiedDate="2026-05-25T00:41:30.0022943+07:00" Length="781" />
+    <ProjectFile Name="Recipe.xaml" ModifiedDate="2026-05-25T00:41:30.1072972+07:00" Length="40134" />
+    <ProjectFile Name="PC_backg_h1.neoxaml" ModifiedDate="2025-05-15T11:52:36+07:00" Length="838" />
+    <ProjectFile Name="PC_backg_h1.xaml" ModifiedDate="2025-05-15T11:52:36+07:00" Length="2953" />
+    <ProjectFile Name="Audit.neoxaml" ModifiedDate="2026-05-25T00:29:21.602784+07:00" Length="846" />
+    <ProjectFile Name="Audit.xaml" ModifiedDate="2026-05-25T00:29:21.6177989+07:00" Length="3744" />
+    <ProjectFile Name="Screen_Security.neoxaml" ModifiedDate="2026-05-25T00:41:30.2243168+07:00" Length="843" />
+    <ProjectFile Name="Screen_Security.Script.cs" ModifiedDate="2026-05-25T00:41:30.2243168+07:00" Length="795" />
+    <ProjectFile Name="Screen_Security.xaml" ModifiedDate="2026-05-25T00:41:30.4073167+07:00" Length="84787" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="2670" />
+    <ProjectFile Name="Recipe1.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5994" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2025-05-15T11:52:36+07:00" Length="850" />
+  </ProjectFiles>
+</Project>

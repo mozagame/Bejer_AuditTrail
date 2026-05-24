@@ -1,0 +1,16 @@
+<Symbols>
+  <Symbol Name="switch 1a" Transparent="False" />
+  <Symbol Name="switch 1b" Transparent="False" />
+  <Symbol Name="light 1b" Transparent="False" />
+  <Symbol Name="light 1a" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_load" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_save" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_delete" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_deleterecipe" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_recipe" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_home" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_previous" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_next" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_alarm" Transparent="False" />
+  <Symbol Name="b5mediumwide.m_login" Transparent="False" />
+</Symbols>

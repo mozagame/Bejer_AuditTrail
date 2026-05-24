@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform>x86</Platform>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD591805-67CA-499A-808F-567848F29C66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neo.ApplicationFramework.Generated</RootNamespace>
+    <AssemblyName>Sample_Recipe</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Temp\Output</OutputPath>
+    <InstallPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin</InstallPath>
+    <CompactFrameworkPath>C:\Program Files (x86)\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE</CompactFrameworkPath>
+    <GCServer>False</GCServer>
+    <DisplayOrHeadless>DISPLAY</DisplayOrHeadless>
+    <UseVSHostingProcess>False</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE;PC;V9;$(DisplayOrHeadless)</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineConstants>TRACE;PC;V9;$(DisplayOrHeadless)</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0114;0108</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>$(InstallPath)\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms">
+      <HintPath>$(CompactFrameworkPath)\Microsoft.WindowsCE.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Windows.Forms">
+      <HintPath>$(InstallPath)\OpenNETCF.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Drawing">
+      <HintPath>$(InstallPath)\OpenNETCF.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Configuration">
+      <HintPath>$(InstallPath)\OpenNETCF.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF">
+      <HintPath>$(InstallPath)\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Api">
+      <HintPath>$(InstallPath)\Core.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Api">
+      <HintPath>$(InstallPath)\CoreCF.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Engine">
+      <HintPath>$(InstallPath)\CoreCF.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Component.Api">
+      <HintPath>$(InstallPath)\CoreCF.Component.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Component.Engine">
+      <HintPath>$(InstallPath)\CoreCF.Component.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Controls.Api">
+      <HintPath>$(InstallPath)\Core.Controls.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Controls.Api">
+      <HintPath>$(InstallPath)\CoreCF.Controls.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Controls.Engine">
+      <HintPath>$(InstallPath)\Core.Controls.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonCF.Utilities">
+      <HintPath>$(InstallPath)\CommonCF.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Utilities">
+      <HintPath>$(InstallPath)\Common.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Storage.Api">
+      <HintPath>$(InstallPath)\Storage.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="StorageCF">
+      <HintPath>$(InstallPath)\StorageCF.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonDatabaseCF">
+      <HintPath>$(InstallPath)\CommonDatabaseCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolsCF">
+      <HintPath>$(InstallPath)\ToolsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Tools">
+      <HintPath>$(InstallPath)\Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Controls.Chart">
+      <HintPath>$(InstallPath)\Controls.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlsCF">
+      <HintPath>$(InstallPath)\ControlsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Controls">
+      <HintPath>$(InstallPath)\Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonCF">
+      <HintPath>$(InstallPath)\CommonCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>$(InstallPath)\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="InterfacesCF">
+      <HintPath>$(InstallPath)\InterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Interfaces">
+      <HintPath>$(InstallPath)\Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="SignatureInterfaces">
+      <HintPath>$(InstallPath)\SignatureInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="SignatureInterfacesCF">
+      <HintPath>$(InstallPath)\SignatureInterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributesCF">
+      <HintPath>$(InstallPath)\AttributesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Attributes">
+      <HintPath>$(InstallPath)\Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="DataSourceInterop">
+      <HintPath>$(InstallPath)\DataSourceInterop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <AppConfigUpdates Include="AppConfigUpdate">
+      <XPath>/configuration/runtime/gcServer/attribute::enabled</XPath>
+      <Value>$(GCServer)</Value>
+    </AppConfigUpdates>
+    <Content Include="$(InstallPath)\Configurations\log4net.config">
+      <Link>log4net.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="$(InstallPath)\pdfium.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Extensions">
+      <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Extensions\Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtensionsCF">
+      <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Extensions\ExtensionsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AlarmServer.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Audit.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AuditTrail.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Controller1.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Expressions.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\LicenseRootComponent.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\MultipleLanguages.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\PC_backg_h1.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ProjectConfiguration.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ProjectImages.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Recipe.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Recipe1.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Sample_Recipe.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Screen_Security.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Security.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\SntpClientRootComponent.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Tags.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Recipe.Script.cs">
+      <Link>Recipe.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Recipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Screen_Security.Script.cs">
+      <Link>Screen_Security.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Screen_Security.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Audit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\PC_backg_h1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Recipe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Screen_Security.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\apidsp_windows.dll">
+      <Link>apidsp_windows.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\BeInProcessNeo.dll">
+      <Link>BeInProcessNeo.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Common.DLL">
+      <Link>Common.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\CommonCF.DLL">
+      <Link>CommonCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\CommonIde.DLL">
+      <Link>CommonIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Controls.DLL">
+      <Link>Controls.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\ControlsCF.DLL">
+      <Link>ControlsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Core.Utilities.dll">
+      <Link>Core.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\CoreCF.Utilities.dll">
+      <Link>CoreCF.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Extensions\StorageDeviceDetection.dll">
+      <Link>StorageDeviceDetection.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Extensions\StorageDeviceDetectionCF.dll">
+      <Link>StorageDeviceDetectionCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\FlexCel.dll">
+      <Link>FlexCel.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\FlexCelCF.dll">
+      <Link>FlexCelCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\graphicspc.dll">
+      <Link>graphicspc.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\hasp_net_windows.dll">
+      <Link>hasp_net_windows.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\hasp_windows_111247.dll">
+      <Link>hasp_windows_111247.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\KeyboardLayouts\Numeric.kbl">
+      <Link>Numeric.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\KeyboardLayouts\NumericHex.kbl">
+      <Link>NumericHex.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\KeyboardLayouts\NumericIP.kbl">
+      <Link>NumericIP.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\KeyboardLayouts\US.kbl">
+      <Link>US.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\OnScreenKeyboardPC.exe">
+      <Link>OnScreenKeyboardPC.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\OPCDAWrapper.dll">
+      <Link>OPCDAWrapper.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\PropertyBag.dll">
+      <Link>PropertyBag.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\SQLite.Interop.dll">
+      <Link>SQLite.Interop.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\SQLiteDatabase.DLL">
+      <Link>SQLiteDatabase.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\SQLiteDatabaseCF.dll">
+      <Link>SQLiteDatabaseCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\SQLiteDatabaseCommonCF.dll">
+      <Link>SQLiteDatabaseCommonCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\System.Data.SQLite.dll">
+      <Link>System.Data.SQLite.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Tools.DLL">
+      <Link>Tools.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\ToolsCF.DLL">
+      <Link>ToolsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\ToolsIde.DLL">
+      <Link>ToolsIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Common Files\Beijers Shared\OPC Drivers\Demo_Pre2.dll">
+      <Link>Demo_Pre2.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\xuant\AppData\Local\Temp\4f6829d4-c73e-4987-9813-14f0d4256bd3\Sample_Recipe.exe.manifest">
+      <Link>Sample_Recipe.exe.manifest</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\xuant\AppData\Local\Temp\Modules.cfgtool">
+      <Link>Modules.cfgtool</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\WINDOWS\FONTS\TAHOMA.TTF">
+      <Link>TAHOMA.TTF</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\AlarmSettings.xml">
+      <Link>AlarmSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\network.bin">
+      <Link>network.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Symbols.zip">
+      <Link>Symbols.zip</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Controller1.cfg">
+      <Link>Controller1.cfg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ControllerRunTimeSettings.xml">
+      <Link>ControllerRunTimeSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Controllers.xml">
+      <Link>Controllers.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Devices.xml">
+      <Link>Devices.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Features.xml">
+      <Link>Features.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Printer1.xml">
+      <Link>Printer1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Project.xml">
+      <Link>Project.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Recipe1.bin">
+      <Link>Recipe1.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ScreenIDs.xml">
+      <Link>ScreenIDs.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Security.xml">
+      <Link>Security.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Temp\PlatformFactory.xml">
+      <Link>PlatformFactory.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\TrendDataConfig.xml">
+      <Link>TrendDataConfig.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(InstallPath)\Design\Microsoft.CompactFramework.CSharp.targets" Condition="'$(MSBuildToolsVersion)' == '3.5'" />
+  <Import Condition="'$(MSBuildToolsVersion)' &gt; '3.5'" Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="BeforeBuild">
+    <Copy SourceFiles="$(InstallPath)\Configurations\App.Config" DestinationFolder="$(ProjectDir)" />
+    <XmlPoke XmlInputPath="$(ProjectDir)\App.Config" Query="%(AppConfigUpdates.XPath)" Value="%(AppConfigUpdates.Value)" />
+  </Target>
+</Project>

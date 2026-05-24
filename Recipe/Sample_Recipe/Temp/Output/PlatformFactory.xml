@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.INativeAPI, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Utilities.NativeAPIWinForms, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.INativeAPI, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Utilities.NativeAPI, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.Utilities.WindowThreadHelper, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Utilities.DispatcherThreadHelper, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.Security.SecurityMessageFilterBase, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Security.SecurityMessageFilter, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.Printer.IGdiWrapper, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Printer.GdiPrinter.GdiWrapperPC, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.MessageFilter.DelayMouseInputMessageFilterBase, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.MessageFilter.DelayMouseInputMessageFilter, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.MessageFilter.MessageFilterBase, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.MessageFilter.MessageFilter, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.MessageFilter.MessageFilter, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.MessageFilter.MessageFilterSimulation, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IKeyboardHelper, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Keyboard.KeyboardHelper, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IFilePathLogic, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.FileLogic.FilePathLogic, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.Printer.ISerialPrinterCF, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Printer.SerialPrinter.SerialPrinterCF, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.Printer.IGdiPrinterCF, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Printer.GdiPrinter.GdiPrinterCF, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Common.Utilities.WindowThreadHelper, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Common.Utilities.WinFormsThreadHelper, CommonCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.TouchListBox.ICheckBoxCell, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.TouchListBox.CheckBoxCell, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.TouchListBox.ITouchListBox, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.TouchListBox.TouchListBoxControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.TouchComboBox.ITouchComboBox, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.TouchComboBox.TouchComboBoxControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.Screen.Momentary.MessageFilters.KeyUpDownMessageFilterBase, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Screen.Momentary.MessageFilters.KeyUpDownMessageFilter, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.Screen.Momentary.MessageFilters.MouseUpDownMessageFilterBase, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Screen.Momentary.MessageFilters.MouseUpDownMessageFilter, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.RollerPanel.IRollerPanel, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.RollerPanel.RollerPanelControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.DateTimeRoller.IDateTimeRoller, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.DateTimeRoller.DateTimeRollerControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.DateTimePicker.IDateTimePicker, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.DateTimePicker.DateTimePickerControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IStringFormatProvider, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Controls.StringFormatProvider, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IInputTextBox, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Controls.InputTextBox, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.AnimatedLabel.IAnimatedLabel, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.AnimatedLabel.AnimatedLabelControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.ActionMenu.IActionMenu, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.ActionMenu.ActionMenuControl, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IExceptionDialog, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Runtime.ExceptionDialog, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.IPdfViewer, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.PdfViewer.PdfViewerSim, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Controls.Logic.IDatabaseViewerLogic, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Controls.Logic.DatabaseViewerLogic, ControlsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Storage.Common.IStorage, Storage.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" InstanceType="Storage.Providers.SQLiteDatabase.SQLiteDatabase, SQLiteDatabase, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Storage.Providers.SQLiteDatabase.ISQLiteStorageProvider, SQLiteDatabaseCommonCF, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" InstanceType="Storage.Providers.SQLiteDatabase.SQLiteDatabaseProvider, SQLiteDatabase, Version=8.0.0.0, Culture=neutral, PublicKeyToken=f9bf78ad04ede021" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.ISplashService, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.SplashService.SplashService, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.Reporting.IReportGenerator, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.Reporting.ReportGenerator, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.Reporting.IReportHandling, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.Reporting.ReportHandling, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.INetworkService, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.Network.NetworkService, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.License.ILicenseService, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.License.LicenseService, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.ICpuInfoService, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.CpuInfo.CpuInfoService, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.SecureMail.ISmtp, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.RebexSecureMail.SecureMail, Tools, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="false" />
+  </Candidate>
+  <Candidate ExportType="Neo.ApplicationFramework.Interfaces.License.ILicenseService, InterfacesCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" InstanceType="Neo.ApplicationFramework.Tools.License.LicenseServiceCF, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ExportTypePriorityOrder="0">
+    <CandidateUsage Platform="WindowsCE" CpuArchitecture="Any" ForSimulation="false" />
+    <CandidateUsage Platform="Windows" CpuArchitecture="Any" ForSimulation="true" />
+  </Candidate>
+</Root>

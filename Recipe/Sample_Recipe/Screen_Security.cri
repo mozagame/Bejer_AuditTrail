@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.53.65422.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="ChangeActiveControllersAction">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Events">
+      <Items>
+        <Item xsi:type="ActionItem" Target="Screen_Security.MultiPicture2" TargetProperty="Actions" Event="MouseDown" Action="Toggle Tag" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.MultiPicture3" TargetProperty="Actions" Event="MouseDown" Action="Toggle Tag" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.MultiPicture4" TargetProperty="Actions" Event="MouseDown" Action="Toggle Tag" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.MultiPicture5" TargetProperty="Actions" Event="MouseDown" Action="Toggle Tag" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.Button19" TargetProperty="Actions" Event="Click" Action="Import user accounts" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.Button15" TargetProperty="Actions" Event="Click" Action="Logout" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.Button3" TargetProperty="Actions" Event="Click" Action="Login" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.Button16" TargetProperty="Actions" Event="Click" Action="Export user accounts" />
+      </Items>
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Screen_Security.LinearMeter1" TargetProperty="Value" Source="Tags.Counter0" />
+        <Item Target="Screen_Security.LinearMeter2" TargetProperty="Value" Source="Tags.Counter2" />
+        <Item Target="Screen_Security.MultiPicture2" TargetProperty="Value" Source="Tags.valve313" />
+        <Item Target="Screen_Security.MultiPicture3" TargetProperty="Value" Source="Tags.valve314" />
+        <Item Target="Screen_Security.MultiPicture4" TargetProperty="Value" Source="Tags.valve315" />
+        <Item Target="Screen_Security.MultiPicture5" TargetProperty="Value" Source="Tags.valve316" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyItems">
+      <Items>
+        <Item xsi:type="LegacyItemMetadata" ScreenName="Screen_Security" ItemName="LegacyScreenObjects">
+          <Details />
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects" ScreenName="Screen_Security">
+          <Details>
+            <Detail>
+              <Key>Label</Key>
+              <Value>12</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolViewbox</Key>
+              <Value>12</Value>
+            </Detail>
+            <Detail>
+              <Key>LinearMeter</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>Symbol</Key>
+              <Value>4</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolControl</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>4</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>37</ObjectsCount>
+          <ScreenName>Screen_Security</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>Screen_Security</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture2" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture2" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture2" Source="valveon (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture3" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture3" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture3" Source="valveon (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture4" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture4" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture4" Source="valveon (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture5" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture5" Source="valveoff (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.MultiPicture5" Source="valveon (1)" Width="87" Height="100" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.Button19" Source="previous user" Width="31" Height="31" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.Button15" Source="log out" Width="31" Height="31" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.Button3" Source="log in" Width="31" Height="31" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="Screen_Security.Button16" Source="next user" Width="31" Height="31" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="WebBrowserSecurity">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

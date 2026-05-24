@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65409.0' LastConverterVersion='2.53.8'?>
+<nacs:ScreenWindow Top="0" Left="0" Topmost="False" Title="PC_backg_h1" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" StyleName="Default" IsCacheable="True" Background="#FFFFFFFF" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" x:Class="Neo.ApplicationFramework.Generated.PC_backg_h1">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
+    <nacs1:SymbolControl RequiresTransparency="True" ForceTransparency="False" BorderBrush="#FF000000" BorderThickness="1,1,1,1" Background="#FF98BBE5" Foreground="#FF000000" FontSize="10" Name="m_SymbolControl1" Width="994" Height="670.496055134015" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="4" Canvas.Left="15" Canvas.Top="7.5039448659854">
+      <nacs1:SymbolControl.Template>
+        <ControlTemplate TargetType="nacs1:SymbolControl">
+          <Grid>
+            <nacc:Rectangle RadiusX="25" RadiusY="25" Fill="#FFFFFFFF" Stroke="{TemplateBinding BorderBrush}" />
+            <nacc:Rectangle RadiusX="24" RadiusY="24" Fill="{TemplateBinding Background}" StrokeThickness="2" Margin="1,1,1,1" />
+          </Grid>
+        </ControlTemplate>
+      </nacs1:SymbolControl.Template>
+      <nacs1:SymbolControl.Effect>
+        <DropShadowEffect />
+      </nacs1:SymbolControl.Effect>
+    </nacs1:SymbolControl>
+    <nacs1:SymbolControl RequiresTransparency="False" ForceTransparency="False" BorderBrush="#FF000000" BorderThickness="1,1,1,1" Background="#FF98BBE5" Foreground="#FF000000" Name="m_SymbolControl2" Width="924" Height="143" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="1" Canvas.Left="50" Canvas.Top="608">
+      <nacs1:SymbolControl.Template>
+        <ControlTemplate TargetType="nacs1:SymbolControl">
+          <Grid>
+            <nacc:Rectangle RadiusX="25" RadiusY="25" Fill="#FFFFFFFF" Stroke="{TemplateBinding BorderBrush}" />
+            <nacc:Rectangle RadiusX="24" RadiusY="24" Fill="{TemplateBinding Background}" StrokeThickness="2" Margin="1,1,1,1" />
+          </Grid>
+        </ControlTemplate>
+      </nacs1:SymbolControl.Template>
+      <nacs1:SymbolControl.Effect>
+        <DropShadowEffect />
+      </nacs1:SymbolControl.Effect>
+    </nacs1:SymbolControl>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

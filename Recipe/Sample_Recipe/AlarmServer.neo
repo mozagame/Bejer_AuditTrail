@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?neo version='2.51.1.0' LastConverterVersion='2.50.5'?><NeoItem d1p1:Serializer="Neo.ApplicationFramework.Tools.Serialization.ObjectSerializer" d1p1:SchemaVersion="1.0" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=1.10.16.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="AlarmServer" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" MaxNumberOfAlarms="1000">
+    <AlarmGroups>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=1.10.16.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="Default" EnableDistribution="False" ActiveForeColor="Black" Name="Default" Text="Default" AcknowledgeForeColor="Black" InactiveForeColor="Black" InactiveBackColor="Yellow" ActiveBackColor="Red" AcknowledgeBackColor="Green" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />
+    </AlarmGroups>
+  </Object>
+</NeoItem>

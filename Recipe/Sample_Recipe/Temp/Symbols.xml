@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="switch 1a.gif" Transparent="false" Width="82" Height="128" />
+  <Symbol FileName="switch 1b.gif" Transparent="false" Width="82" Height="128" />
+  <Symbol FileName="save recipe.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="load recipe.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="delete recipe.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="close.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="recipe.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="led_white_off.lib" Transparent="false" Width="26" Height="26" />
+  <Symbol FileName="led_red.lib" Transparent="false" Width="26" Height="26" />
+  <Symbol FileName="valveoff (1).bmp" Transparent="false" Width="87" Height="100" />
+  <Symbol FileName="valveon (1).bmp" Transparent="false" Width="87" Height="100" />
+  <Symbol FileName="previous user.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="log out.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="log in.png" Transparent="false" Width="128" Height="128" />
+  <Symbol FileName="next user.png" Transparent="false" Width="128" Height="128" />
+</Symbols>

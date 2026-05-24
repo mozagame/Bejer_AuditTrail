@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Controller Name="Controller1" IsActive="true" />
+</Configuration>

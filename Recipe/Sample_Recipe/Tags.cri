@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.53.65422.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="ChangeActiveControllersAction">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Events">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="Tags" TargetProperty="RecipeL1" Source="Controller1.DataItem1" />
+        <Item Target="Tags" TargetProperty="RecipeL2" Source="Controller1.DataItem2" />
+        <Item Target="Tags" TargetProperty="RecipeL3" Source="Controller1.DataItem3" />
+        <Item Target="Tags" TargetProperty="RecipeL4" Source="Controller1.DataItem4" />
+        <Item Target="Tags" TargetProperty="RecipeLSpeed" Source="Controller1.DataItem5" />
+        <Item Target="Tags" TargetProperty="RecipeOffline" Source="Controller1.DataItem6" />
+        <Item Target="Tags" TargetProperty="RecipeInfo" Source="Controller1.DataItem7" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyItems">
+      <Items />
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="PollGroups">
+          <Details>
+            <Detail>
+              <Key>Group1</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group2</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group3</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group4</Key>
+              <Value>500</Value>
+            </Detail>
+            <Detail>
+              <Key>Group5</Key>
+              <Value>500</Value>
+            </Detail>
+          </Details>
+        </Item>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="DataExchange">
+          <Details>
+            <Detail>
+              <Key>DataExchangeTags</Key>
+              <Value>0</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>
