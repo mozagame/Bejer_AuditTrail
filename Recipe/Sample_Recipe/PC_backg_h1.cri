@@ -23,7 +23,11 @@
       <Items />
     </Category>
     <Category Name="Events">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button" TargetProperty="Actions" Event="Click" Action="Show Screen" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button1" TargetProperty="Actions" Event="Click" Action="Show Screen" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button2" TargetProperty="Actions" Event="Click" Action="Show Screen" />
+      </Items>
     </Category>
     <Category Name="Expression">
       <Items />
@@ -55,6 +59,10 @@
               <Key>SymbolControl</Key>
               <Value>2</Value>
             </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>3</Value>
+            </Detail>
           </Details>
         </Item>
       </Items>
@@ -70,8 +78,11 @@
     </Category>
     <Category Name="Screen">
       <Items>
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button" TargetProperty="Actions" Source="Recipe" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button1" TargetProperty="Actions" Source="Screen_Security" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button2" TargetProperty="Actions" Source="Audit" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>2</ObjectsCount>
+          <ObjectsCount>5</ObjectsCount>
           <ScreenName>PC_backg_h1</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">

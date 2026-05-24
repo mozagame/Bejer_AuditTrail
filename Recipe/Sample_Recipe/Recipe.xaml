@@ -543,25 +543,5 @@
         </TransformGroup>
       </nacs2:Symbol.RenderTransform>
     </nacs2:Symbol>
-    <nac:Button Text="Change screens" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="121.22004976893" Height="80.81336651262" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="863.783860646996" Canvas.Top="28.6287105410373" Style="{nac2:StyleMarkupExtension Default}">
-      <nac:Button.TextDecorations>
-        <TextDecorationCollection />
-      </nac:Button.TextDecorations>
-      <nai:ActionProperties.Actions>
-        <nai:ActionList>
-          <nata:Action Name="Show Screen">
-            <nata:Action.ActionMethodInfo>
-              <nata:ActionMethodInfo Name="Show" ObjectName="Audit" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False" IsAsync="False">
-                <nata:ActionMethodInfo.ActionParameterInfo>
-                  <nai:ActionParameterInfoList>
-                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
-                  </nai:ActionParameterInfoList>
-                </nata:ActionMethodInfo.ActionParameterInfo>
-              </nata:ActionMethodInfo>
-            </nata:Action.ActionMethodInfo>
-          </nata:Action>
-        </nai:ActionList>
-      </nai:ActionProperties.Actions>
-    </nac:Button>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

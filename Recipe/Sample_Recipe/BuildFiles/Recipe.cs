@@ -32,7 +32,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Button7.Click += new System.Windows.RoutedEventHandler(this.m_Button7_Action_Click);
 			this.m_Button6.Click += new System.Windows.RoutedEventHandler(this.m_Button6_Action_Click);
 			this.m_Button26.Click += new System.Windows.RoutedEventHandler(this.m_Button26_Action_Click);
-			this.m_Button.Click += new System.Windows.RoutedEventHandler(this.m_Button_Action_Click);
 		}
 		
 		protected Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter AnalogNumeric1
@@ -267,14 +266,6 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
-		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button
-		{
-			get
-			{
-				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button);
-			}
-		}
-		
 		protected override Neo.ApplicationFramework.Common.Alias.Entities.AliasInstancesCF CreateInstanceData()
 		{
 			System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF> instanceList = new System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF>(1);
@@ -313,7 +304,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Button6.Text = resources.GetText("Recipe.Button6.Text", "Exit");
 			this.m_Button26.Text = resources.GetText("Recipe.Button26.Text", "Edit");
 			this.m_Text1.Text = resources.GetText("Recipe.Text1.Text", "Recipe Management");
-			this.m_Button.Text = resources.GetText("Recipe.Button.Text", "Change screens");
 			this.ApplyResourcesOnWindow();
 		}
 		
@@ -402,11 +392,6 @@ namespace Neo.ApplicationFramework.Generated
 		{
 			Neo.ApplicationFramework.Generated.Globals.Tags.RecipeOffline.SetTag();
 			Neo.ApplicationFramework.Generated.Globals.Recipe1.StartOfflineRecipeEditing();
-		}
-		
-		private void m_Button_Action_Click(object sender, System.EventArgs e)
-		{
-			Neo.ApplicationFramework.Generated.Globals.Audit.Show();
 		}
 	}
 }

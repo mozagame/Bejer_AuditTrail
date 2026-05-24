@@ -23,6 +23,9 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataContext = Globals.Instance;
 			this.InitializeComponent();
 			this.ApplyLanguageInternal();
+			this.m_Button.Click += new System.Windows.RoutedEventHandler(this.m_Button_Action_Click);
+			this.m_Button1.Click += new System.Windows.RoutedEventHandler(this.m_Button1_Action_Click);
+			this.m_Button2.Click += new System.Windows.RoutedEventHandler(this.m_Button2_Action_Click);
 		}
 		
 		protected Neo.ApplicationFramework.Controls.Script.RenderableAdapter SymbolControl1
@@ -38,6 +41,30 @@ namespace Neo.ApplicationFramework.Generated
 			get
 			{
 				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.RenderableAdapter>(this.m_SymbolControl2);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button1
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button1);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button2
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button2);
 			}
 		}
 		
@@ -66,6 +93,9 @@ namespace Neo.ApplicationFramework.Generated
 		private void ApplyLanguageInternal()
 		{
 			Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager resources = new Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager(typeof(PC_backg_h1));
+			this.m_Button.Text = resources.GetText("PC_backg_h1.Button.Text", "Recipe");
+			this.m_Button1.Text = resources.GetText("PC_backg_h1.Button1.Text", "User");
+			this.m_Button2.Text = resources.GetText("PC_backg_h1.Button2.Text", "Audit Viewer");
 			this.ApplyResourcesOnWindow();
 		}
 		
@@ -90,6 +120,21 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private void RefreshBindingsOnObjects()
 		{
+		}
+		
+		private void m_Button_Action_Click(object sender, System.EventArgs e)
+		{
+			Neo.ApplicationFramework.Generated.Globals.Recipe.Show();
+		}
+		
+		private void m_Button1_Action_Click(object sender, System.EventArgs e)
+		{
+			Neo.ApplicationFramework.Generated.Globals.Screen_Security.Show();
+		}
+		
+		private void m_Button2_Action_Click(object sender, System.EventArgs e)
+		{
+			Neo.ApplicationFramework.Generated.Globals.Audit.Show();
 		}
 	}
 }

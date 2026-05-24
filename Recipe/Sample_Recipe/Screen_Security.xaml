@@ -1047,5 +1047,19 @@
         </nai:ActionList>
       </nai:ActionProperties.Actions>
     </nac:Button>
+    <nac:Button Text="Back" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button" Width="97.1944543192323" Height="46.7510263946187" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="49" Canvas.Left="832.21607193764" Canvas.Top="15.4498640103947" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Previous Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ActionBackScreen" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IScreenManager&gt;()" EventName="Click" ReferenceType="Service" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

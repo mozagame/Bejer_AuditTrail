@@ -33,7 +33,6 @@
         <Item xsi:type="ActionItem" Target="Recipe.Button7" TargetProperty="Actions" Event="Click" Action="Delete Recipe" />
         <Item xsi:type="ActionItem" Target="Recipe.Button6" TargetProperty="Actions" Event="Click" Action="Multi Action" />
         <Item xsi:type="ActionItem" Target="Recipe.Button26" TargetProperty="Actions" Event="Click" Action="Multi Action" />
-        <Item xsi:type="ActionItem" Target="Recipe.Button" TargetProperty="Actions" Event="Click" Action="Show Screen" />
       </Items>
     </Category>
     <Category Name="Expression">
@@ -101,7 +100,7 @@
             </Detail>
             <Detail>
               <Key>Button</Key>
-              <Value>6</Value>
+              <Value>5</Value>
             </Detail>
             <Detail>
               <Key>DigitalClock</Key>
@@ -128,9 +127,8 @@
     </Category>
     <Category Name="Screen">
       <Items>
-        <Item xsi:type="ActionItem" Target="Recipe.Button" TargetProperty="Actions" Source="Audit" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>30</ObjectsCount>
+          <ObjectsCount>29</ObjectsCount>
           <ScreenName>Recipe</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">

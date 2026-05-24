@@ -31,6 +31,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Button15.Click += new System.Windows.RoutedEventHandler(this.m_Button15_Action_Click);
 			this.m_Button3.Click += new System.Windows.RoutedEventHandler(this.m_Button3_Action_Click);
 			this.m_Button16.Click += new System.Windows.RoutedEventHandler(this.m_Button16_Action_Click);
+			this.m_Button.Click += new System.Windows.RoutedEventHandler(this.m_Button_Action_Click);
 		}
 		
 		protected Neo.ApplicationFramework.Controls.Script.TextElementAdapter Text7
@@ -329,6 +330,14 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button);
+			}
+		}
+		
 		protected override Neo.ApplicationFramework.Common.Alias.Entities.AliasInstancesCF CreateInstanceData()
 		{
 			System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF> instanceList = new System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF>(1);
@@ -374,6 +383,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Button15.Text = resources.GetText("Screen_Security.Button15.Text", "Logout");
 			this.m_Button3.Text = resources.GetText("Screen_Security.Button3.Text", "Login");
 			this.m_Button16.Text = resources.GetText("Screen_Security.Button16.Text", "Export");
+			this.m_Button.Text = resources.GetText("Screen_Security.Button.Text", "Back");
 			this.ApplyResourcesOnWindow();
 		}
 		
@@ -439,6 +449,11 @@ namespace Neo.ApplicationFramework.Generated
 		private void m_Button16_Action_Click(object sender, System.EventArgs e)
 		{
 			Neo.ApplicationFramework.Generated.Globals.Security.ExportUsers();
+		}
+		
+		private void m_Button_Action_Click(object sender, System.EventArgs e)
+		{
+			Core.Api.Service.ServiceContainerCF.GetService<Neo.ApplicationFramework.Interfaces.IScreenManager>().ActionBackScreen();
 		}
 	}
 }

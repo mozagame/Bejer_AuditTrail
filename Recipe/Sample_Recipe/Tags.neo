@@ -67,7 +67,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ArrayIndex="1" />
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="RecipeL1" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_BIT" d1p1:Site.Name="RecipeL1" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -87,7 +87,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="RecipeL1 Enable" />
         </AuditTrailDescription>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="RecipeL2" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_BIT" d1p1:Site.Name="RecipeL2" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -107,7 +107,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="RecipeL2 Enable" />
         </AuditTrailDescription>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="RecipeL3" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_BIT" d1p1:Site.Name="RecipeL3" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -127,7 +127,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="RecipeL3 Enable" />
         </AuditTrailDescription>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="RecipeL4" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_BIT" d1p1:Site.Name="RecipeL4" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -147,7 +147,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="RecipeL4 Enable" />
         </AuditTrailDescription>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_INTEGER2" d1p1:Site.Name="RecipeLSpeed" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_INTEGER2" d1p1:Site.Name="RecipeLSpeed" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -166,7 +166,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="-Infinity" End="Infinity" Value="RecipeLSpeed_Change Value" />
         </AuditTrailDescription>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" d1p1:Site.Name="RecipeOffline" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_BIT" d1p1:Site.Name="RecipeOffline" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -182,7 +182,7 @@
           </Object>
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Size="32" DataType="DT_STRING" d1p1:Site.Name="RecipeInfo" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" Size="32" DataType="DT_STRING" d1p1:Site.Name="RecipeInfo" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>

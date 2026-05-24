@@ -123,11 +123,6 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Recipe Management" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Recipe" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
-        <ReferenceValue>
-          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Change screens" />
-        </ReferenceValue>
-      </Object>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Back" />
@@ -211,6 +206,26 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button16" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Export" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="PC_backg_h1" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Recipe" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="PC_backg_h1" ObjectName="Button1" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="User" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="PC_backg_h1" ObjectName="Button2" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Audit Viewer" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Screen_Security" ObjectName="Button" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Back" />
         </ReferenceValue>
       </Object>
     </ResourceItems>

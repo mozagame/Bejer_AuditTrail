@@ -7,11 +7,29 @@
   </SecurityGroups>
   <SecurityUsers>
     <User ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3">
-      <Username>Administrator</Username>
+      <Username>admi</Username>
       <PasswordHash>OoMDty4A6yBaM9z7Qo7vCnMLZCU=</PasswordHash>
       <Description></Description>
       <Groups>
         <Group>Group_01</Group>
+      </Groups>
+      <IsErasable>False</IsErasable>
+    </User>
+    <User ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3">
+      <Username>ope</Username>
+      <PasswordHash>ZbiOggjza7u9BHJRnWdV39OeucY=</PasswordHash>
+      <Description></Description>
+      <Groups>
+        <Group>Group_02</Group>
+      </Groups>
+      <IsErasable>False</IsErasable>
+    </User>
+    <User ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3">
+      <Username>ser</Username>
+      <PasswordHash>YN8CucIGQY9MfALffwIoIlwzd6s=</PasswordHash>
+      <Description></Description>
+      <Groups>
+        <Group>Group_03</Group>
       </Groups>
       <IsErasable>False</IsErasable>
     </User>

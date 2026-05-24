@@ -101,9 +101,12 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItems.Add(this.DataItem6);
 			this.DataItems.Add(this.DataItem7);
 			this.Driver = "Demo_Pre2.Demo_Pre2.1";
+			this.DriverFormat = Neo.ApplicationFramework.Interfaces.Constants.DriverFormat.MPD;
+			this.DriverInitializationString = "";
 			this.Node = "";
 			this.Servername = "Beijer.InprocessNeo.2";
 			this.TargetInfoString = "iXDeveloper;WinXP;Beijer;PC;PC;en;";
+			this.Url = "";
 		}
 		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]

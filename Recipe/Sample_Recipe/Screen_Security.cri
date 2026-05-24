@@ -32,6 +32,7 @@
         <Item xsi:type="ActionItem" Target="Screen_Security.Button15" TargetProperty="Actions" Event="Click" Action="Logout" />
         <Item xsi:type="ActionItem" Target="Screen_Security.Button3" TargetProperty="Actions" Event="Click" Action="Login" />
         <Item xsi:type="ActionItem" Target="Screen_Security.Button16" TargetProperty="Actions" Event="Click" Action="Export user accounts" />
+        <Item xsi:type="ActionItem" Target="Screen_Security.Button" TargetProperty="Actions" Event="Click" Action="Show Previous Screen" />
       </Items>
     </Category>
     <Category Name="Expression">
@@ -93,7 +94,7 @@
             </Detail>
             <Detail>
               <Key>Button</Key>
-              <Value>4</Value>
+              <Value>5</Value>
             </Detail>
           </Details>
         </Item>
@@ -111,7 +112,7 @@
     <Category Name="Screen">
       <Items>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>37</ObjectsCount>
+          <ObjectsCount>38</ObjectsCount>
           <ScreenName>Screen_Security</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">
