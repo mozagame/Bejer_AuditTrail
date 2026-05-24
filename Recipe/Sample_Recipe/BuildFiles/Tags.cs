@@ -45,6 +45,8 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag valve316;
 		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Temp;
+		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup1;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup2;
@@ -96,6 +98,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.valve314 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve314", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
 			this.valve315 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve315", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
 			this.valve316 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve316", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
+			this.Temp = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Temp", "Controller1.DataItem8", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL4)), true, "", null);
 			this.PollGroup1 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup2 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup3 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
@@ -131,6 +134,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.LightweightTags.Add(this.valve314);
 			this.LightweightTags.Add(this.valve315);
 			this.LightweightTags.Add(this.valve316);
+			this.LightweightTags.Add(this.Temp);
 			this.PollGroup1.Interval = 500;
 			this.PollGroup1.Name = "PollGroup1";
 			this.PollGroup2.Interval = 500;
@@ -246,6 +250,16 @@ namespace Neo.ApplicationFramework.Generated
 		public string GetDescription(double value)
 		{
 			return "RecipeLSpeed_Change Value";
+		}
+	}
+	
+	[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+	public class AuditTrailDescriptionsForTemp : Neo.ApplicationFramework.Interfaces.IAuditTrailDescriptions
+	{
+		
+		public string GetDescription(double value)
+		{
+			return "Comment";
 		}
 	}
 }

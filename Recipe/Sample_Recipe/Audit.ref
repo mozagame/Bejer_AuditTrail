@@ -2,4 +2,5 @@
 <Types Version="1.20.255.0">
   <Type AssemblyQualifiedName="Neo.ApplicationFramework.Controls.AuditTrail.AuditTrailViewer, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
   <Type AssemblyQualifiedName="Neo.ApplicationFramework.Controls.Button, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+  <Type AssemblyQualifiedName="Neo.ApplicationFramework.Controls.AnalogNumericFX, Controls, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
 </Types>

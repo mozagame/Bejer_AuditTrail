@@ -390,6 +390,7 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private void m_Button26_Action_Click(object sender, System.EventArgs e)
 		{
+			Neo.ApplicationFramework.Generated.Globals.AuditTrailService.LogAction("m_Button26", "Click", "Set Tag", "Tags.RecipeOffline", "");
 			Neo.ApplicationFramework.Generated.Globals.Tags.RecipeOffline.SetTag();
 			Neo.ApplicationFramework.Generated.Globals.Recipe1.StartOfflineRecipeEditing();
 		}

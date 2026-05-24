@@ -228,6 +228,25 @@
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
         </GlobalDataSubItems>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_REAL4" d1p1:Site.Name="Temp" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem8" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <AuditTrailDescription>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="-Infinity" End="Infinity" Value="Comment" />
+        </AuditTrailDescription>
+      </Object>
     </GlobalDataItems>
     <PollGroups>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup1" Interval="500" d1p1:Site.Name="PollGroup1" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />

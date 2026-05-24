@@ -42,6 +42,14 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
+		protected Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter AnalogNumeric
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter>(this.m_AnalogNumeric);
+			}
+		}
+		
 		protected override Neo.ApplicationFramework.Common.Alias.Entities.AliasInstancesCF CreateInstanceData()
 		{
 			System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF> instanceList = new System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF>(1);

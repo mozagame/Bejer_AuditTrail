@@ -90,7 +90,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.SuppressedLogActionNameList.Add("Import user accounts");
 			this.SuppressedLogActionNameList.Add("Logout");
 			this.SuppressedLogActionNameList.Add("Show Users Dialog");
-			this.SuppressedLogActionNameList.Add("Set Tag");
 			this.ConnectDataBindings();
 		}
 		

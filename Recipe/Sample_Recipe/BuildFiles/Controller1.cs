@@ -31,6 +31,8 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem7;
 		
+		private Neo.ApplicationFramework.Tools.OpcClient.DataItem DataItem8;
+		
 		public Controller1()
 		{
 			this.InitializeComponent();
@@ -65,6 +67,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItem5 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem5", "D0", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem6 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem6", "M4", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 			this.DataItem7 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem7", "D10", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_STRING)), ((short)(32)), 0D, 1D, ((short)(0)), false);
+			this.DataItem8 = new Neo.ApplicationFramework.Tools.OpcClient.DataItem("DataItem8", "D12", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL4)), ((short)(1)), 0D, 1D, ((short)(0)), false);
 		}
 		
 		private void InitializeBeginInits()
@@ -77,6 +80,7 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.DataItem5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem7)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem8)).BeginInit();
 		}
 		
 		private void InitializeEndInits()
@@ -88,6 +92,7 @@ namespace Neo.ApplicationFramework.Generated
 			((System.ComponentModel.ISupportInitialize)(this.DataItem5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.DataItem7)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DataItem8)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 		}
 		
@@ -100,6 +105,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.DataItems.Add(this.DataItem5);
 			this.DataItems.Add(this.DataItem6);
 			this.DataItems.Add(this.DataItem7);
+			this.DataItems.Add(this.DataItem8);
 			this.Driver = "Demo_Pre2.Demo_Pre2.1";
 			this.DriverFormat = Neo.ApplicationFramework.Interfaces.Constants.DriverFormat.MPD;
 			this.DriverInitializationString = "";

@@ -31,6 +31,7 @@
         <Item Target="Tags" TargetProperty="RecipeLSpeed" Source="Controller1.DataItem5" />
         <Item Target="Tags" TargetProperty="RecipeOffline" Source="Controller1.DataItem6" />
         <Item Target="Tags" TargetProperty="RecipeInfo" Source="Controller1.DataItem7" />
+        <Item Target="Tags" TargetProperty="Temp" Source="Controller1.DataItem8" />
       </Items>
     </Category>
     <Category Name="InvalidAction">

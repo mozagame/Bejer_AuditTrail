@@ -1,455 +1,109 @@
 [Header Microsoft Windows NT 6.2.9200.0]
-2026-05-25 00:43:29,125 [1] INFO  ? - Loaded tool: RootComponentTool
-2026-05-25 00:43:29,140 [1] INFO  ? - Loaded tool: ControlsTool
-2026-05-25 00:43:29,141 [1] INFO  ? - Loaded tool: GlobalReferenceTool
-2026-05-25 00:43:29,142 [1] INFO  ? - Loaded tool: FeatureSecurityToolCF
-2026-05-25 00:43:29,142 [1] INFO  ? - Loaded tool: PlatformFactoryToolCF
-2026-05-25 00:43:29,146 [1] INFO  ? - Loaded tool: StorageToolCF
-2026-05-25 00:43:29,149 [1] INFO  ? - Loaded tool: SQLiteDatabaseToolCF
-2026-05-25 00:43:29,149 [1] INFO  ? - Loaded tool: WebServerConfigToolCF
-2026-05-25 00:43:29,150 [1] INFO  ? - Loaded tool: VncToolCF
-2026-05-25 00:43:29,150 [1] INFO  ? - Loaded tool: TrendDataToolCF
-2026-05-25 00:43:29,151 [1] INFO  ? - Loaded tool: TimeInformationToolCF
-2026-05-25 00:43:29,151 [1] INFO  ? - Loaded tool: NativeToolCF
-2026-05-25 00:43:29,151 [1] INFO  ? - Loaded tool: ScopeToolCF
-2026-05-25 00:43:29,151 [1] INFO  ? - Loaded tool: KeyPanelConfigToolCF
-2026-05-25 00:43:29,152 [1] INFO  ? - Loaded tool: NeedleAppearanceToolCF
-2026-05-25 00:43:29,152 [1] INFO  ? - Loaded tool: ObjectSerializationToolCF
-2026-05-25 00:43:29,152 [1] INFO  ? - Loaded tool: TagMonitorDataToolCF
-2026-05-25 00:43:29,152 [1] INFO  ? - Loaded tool: OpcClientTool
-2026-05-25 00:43:29,152 [1] INFO  ? - Loaded tool: SystemTagTool
-2026-05-25 00:43:29,159 [1] INFO  ? - Loaded tool: ScreenManagerToolFull
-2026-05-25 00:43:29,160 [1] INFO  ? - Loaded tool: SystemInformationTool
-2026-05-25 00:43:29,160 [1] INFO  ? - Loaded tool: SymbolTool
-2026-05-25 00:43:29,160 [1] INFO  ? - Loaded tool: StructuredTypesToolCF
-2026-05-25 00:43:29,161 [1] INFO  ? - Loaded tool: SMSSenderTool
-2026-05-25 00:43:29,161 [1] INFO  ? - Loaded tool: Run
-2026-05-25 00:43:29,161 [1] INFO  ? - Loaded tool: SimulationTool
-2026-05-25 00:43:29,161 [1] INFO  ? - Loaded tool: RenderableControlTool
-2026-05-25 00:43:29,162 [1] INFO  ? - Loaded tool: ProjectInformationToolCF
-2026-05-25 00:43:29,162 [1] INFO  ? - Loaded tool: PrinterToolCF
-2026-05-25 00:43:29,163 [1] INFO  ? - Loaded tool: NetworkToolCF
-2026-05-25 00:43:29,163 [1] INFO  ? - Loaded tool: DeviceManagerToolCF
-2026-05-25 00:43:29,163 [1] INFO  ? - Loaded tool: DelayInputTool
-2026-05-25 00:43:29,163 [1] INFO  ? - Loaded tool: DebugLoggerTool
-2026-05-25 00:43:29,163 [1] INFO  ? - Loaded tool: CachedDataItemToolCF
-2026-05-25 00:43:29,164 [1] INFO  ? - Loaded tool: BindingTool
-2026-05-25 00:43:29,167 [1] INFO  ? - Loaded tool: BacklightTool
-2026-05-25 00:43:29,167 [1] INFO  ? - Loaded tool: StorageCacheTool
-2026-05-25 00:43:29,167 [1] INFO  ? - Loaded tool: DatabaseTool
-2026-05-25 00:43:29,167 [1] INFO  ? - Loaded tool: MessageBoxTool
-2026-05-25 00:43:29,168 [1] INFO  ? - Loaded tool: StorageClientTool
-2026-05-25 00:43:29,168 [1] INFO  ? - Loaded tool: SplashServiceTool
-2026-05-25 00:43:29,168 [1] INFO  ? - Loaded tool: LicenseResolverTool
-2026-05-25 00:43:29,168 [1] INFO  ? - Loaded tool: LicenseToolCF
-2026-05-25 00:43:29,168 [1] INFO  ? - Loaded tool: HttpsTool
-2026-05-25 00:43:29,169 [1] INFO  ? - Loaded tool: CommandLineTool
-2026-05-25 00:43:29,169 [1] INFO  ? - Loaded tool: MessageFilterTool
-2026-05-25 00:43:29,170 [1] INFO  ? - Loaded tool: NotifierService
-2026-05-25 00:43:29,170 [1] INFO  ? - Loaded tool: PrintScreenTool
-2026-05-25 00:43:29,170 [1] INFO  ? - Loaded tool: TimerTool
-2026-05-25 00:43:29,170 [1] INFO  ? - Loaded tool: OpcUaClientToolCF
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: RecipeTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: MultiLanguageTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: HourglassToolCF
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: DrawingTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: NonVolatileTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: EncryptionServiceTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: EmailSenderTool
-2026-05-25 00:43:29,171 [1] INFO  ? - Loaded tool: DriverPropertiesToolCF
-2026-05-25 00:43:29,172 [1] INFO  ? - Loaded tool: DateTimeEditTool
-2026-05-25 00:43:29,172 [1] INFO  ? - Loaded tool: FastLoggingFeatureLogicToolCF
-2026-05-25 00:43:29,174 [1] INFO  ? - Loaded tool: BrandTool
-2026-05-25 00:43:29,175 [1] INFO  ? - Loaded tool: SecurityManagerTool
-2026-05-25 00:43:29,175 [1] INFO  ? - Loaded tool: ProjectTool
-2026-05-25 00:43:29,175 [1] INFO  ? - Loaded tool: AuditTrailTool
-2026-05-25 00:43:29,176 [1] INFO  ? - Loaded tool: UserChangedAuditTrailToolCF
-2026-05-25 00:43:29,176 [1] INFO  ? - Loaded tool: AlarmTool
-2026-05-25 00:43:29,178 [1] INFO  ? - Loaded tool: ThrusterNeedleAppearanceRuntimeTool
-2026-05-25 00:43:29,191 [1] INFO  ? - Loaded tool: StorageDeviceDetectionTool
-2026-05-25 00:43:29,324 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.53.65422.0
-2026-05-25 00:43:29,329 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+2026-05-25 01:06:50,453 [1] INFO  ? - Loaded tool: RootComponentTool
+2026-05-25 01:06:50,520 [1] INFO  ? - Loaded tool: ControlsTool
+2026-05-25 01:06:50,521 [1] INFO  ? - Loaded tool: GlobalReferenceTool
+2026-05-25 01:06:50,521 [1] INFO  ? - Loaded tool: FeatureSecurityToolCF
+2026-05-25 01:06:50,522 [1] INFO  ? - Loaded tool: PlatformFactoryToolCF
+2026-05-25 01:06:50,592 [1] INFO  ? - Loaded tool: StorageToolCF
+2026-05-25 01:06:50,789 [1] INFO  ? - Loaded tool: SQLiteDatabaseToolCF
+2026-05-25 01:06:50,789 [1] INFO  ? - Loaded tool: WebServerConfigToolCF
+2026-05-25 01:06:50,790 [1] INFO  ? - Loaded tool: VncToolCF
+2026-05-25 01:06:50,790 [1] INFO  ? - Loaded tool: TrendDataToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: TimeInformationToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: NativeToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: ScopeToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: KeyPanelConfigToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: NeedleAppearanceToolCF
+2026-05-25 01:06:50,791 [1] INFO  ? - Loaded tool: ObjectSerializationToolCF
+2026-05-25 01:06:50,792 [1] INFO  ? - Loaded tool: TagMonitorDataToolCF
+2026-05-25 01:06:50,792 [1] INFO  ? - Loaded tool: OpcClientTool
+2026-05-25 01:06:50,792 [1] INFO  ? - Loaded tool: SystemTagTool
+2026-05-25 01:06:50,824 [1] INFO  ? - Loaded tool: ScreenManagerToolFull
+2026-05-25 01:06:50,825 [1] INFO  ? - Loaded tool: SystemInformationTool
+2026-05-25 01:06:50,825 [1] INFO  ? - Loaded tool: SymbolTool
+2026-05-25 01:06:50,825 [1] INFO  ? - Loaded tool: StructuredTypesToolCF
+2026-05-25 01:06:50,825 [1] INFO  ? - Loaded tool: SMSSenderTool
+2026-05-25 01:06:50,825 [1] INFO  ? - Loaded tool: Run
+2026-05-25 01:06:50,826 [1] INFO  ? - Loaded tool: SimulationTool
+2026-05-25 01:06:50,826 [1] INFO  ? - Loaded tool: RenderableControlTool
+2026-05-25 01:06:50,827 [1] INFO  ? - Loaded tool: ProjectInformationToolCF
+2026-05-25 01:06:50,827 [1] INFO  ? - Loaded tool: PrinterToolCF
+2026-05-25 01:06:50,827 [1] INFO  ? - Loaded tool: NetworkToolCF
+2026-05-25 01:06:50,827 [1] INFO  ? - Loaded tool: DeviceManagerToolCF
+2026-05-25 01:06:50,827 [1] INFO  ? - Loaded tool: DelayInputTool
+2026-05-25 01:06:50,828 [1] INFO  ? - Loaded tool: DebugLoggerTool
+2026-05-25 01:06:50,828 [1] INFO  ? - Loaded tool: CachedDataItemToolCF
+2026-05-25 01:06:50,828 [1] INFO  ? - Loaded tool: BindingTool
+2026-05-25 01:06:50,832 [1] INFO  ? - Loaded tool: BacklightTool
+2026-05-25 01:06:50,832 [1] INFO  ? - Loaded tool: StorageCacheTool
+2026-05-25 01:06:50,832 [1] INFO  ? - Loaded tool: DatabaseTool
+2026-05-25 01:06:50,832 [1] INFO  ? - Loaded tool: MessageBoxTool
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: StorageClientTool
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: SplashServiceTool
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: LicenseResolverTool
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: LicenseToolCF
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: HttpsTool
+2026-05-25 01:06:50,833 [1] INFO  ? - Loaded tool: CommandLineTool
+2026-05-25 01:06:50,834 [1] INFO  ? - Loaded tool: MessageFilterTool
+2026-05-25 01:06:50,835 [1] INFO  ? - Loaded tool: NotifierService
+2026-05-25 01:06:50,835 [1] INFO  ? - Loaded tool: PrintScreenTool
+2026-05-25 01:06:50,835 [1] INFO  ? - Loaded tool: TimerTool
+2026-05-25 01:06:50,835 [1] INFO  ? - Loaded tool: OpcUaClientToolCF
+2026-05-25 01:06:50,835 [1] INFO  ? - Loaded tool: RecipeTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: MultiLanguageTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: HourglassToolCF
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: DrawingTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: NonVolatileTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: EncryptionServiceTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: EmailSenderTool
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: DriverPropertiesToolCF
+2026-05-25 01:06:50,836 [1] INFO  ? - Loaded tool: DateTimeEditTool
+2026-05-25 01:06:50,837 [1] INFO  ? - Loaded tool: FastLoggingFeatureLogicToolCF
+2026-05-25 01:06:50,866 [1] INFO  ? - Loaded tool: BrandTool
+2026-05-25 01:06:50,867 [1] INFO  ? - Loaded tool: SecurityManagerTool
+2026-05-25 01:06:50,867 [1] INFO  ? - Loaded tool: ProjectTool
+2026-05-25 01:06:50,867 [1] INFO  ? - Loaded tool: AuditTrailTool
+2026-05-25 01:06:50,868 [1] INFO  ? - Loaded tool: UserChangedAuditTrailToolCF
+2026-05-25 01:06:50,869 [1] INFO  ? - Loaded tool: AlarmTool
+2026-05-25 01:06:50,917 [1] INFO  ? - Loaded tool: ThrusterNeedleAppearanceRuntimeTool
+2026-05-25 01:06:51,017 [1] INFO  ? - Loaded tool: StorageDeviceDetectionTool
+2026-05-25 01:06:51,939 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.53.65422.0
+2026-05-25 01:06:51,944 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
    at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
    at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:43:29,406 [1] INFO  ? - Initializing ToolManager
-2026-05-25 00:43:29,431 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+2026-05-25 01:06:59,747 [1] INFO  ? - Initializing ToolManager
+2026-05-25 01:06:59,772 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
    at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
    at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:43:29,522 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:29,522 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:29,522 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:29,522 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:29,652 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
-2026-05-25 00:43:29,678 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
-2026-05-25 00:43:29,679 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
-2026-05-25 00:43:29,682 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
-2026-05-25 00:43:29,733 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
-2026-05-25 00:43:29,750 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 32960 bytes.
-2026-05-25 00:43:29,775 [7] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
-2026-05-25 00:43:29,806 [7] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
-2026-05-25 00:43:29,807 [7] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
-2026-05-25 00:43:29,807 [7] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
-2026-05-25 00:43:29,957 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Creating database with page size 4096 bytes.
-2026-05-25 00:43:29,979 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check started.
-2026-05-25 00:43:29,980 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check finished without errors.
-2026-05-25 00:43:29,981 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Database created.
-2026-05-25 00:43:30,167 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'Recipe1'
-2026-05-25 00:43:30,366 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:43:30,438 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:43:30,627 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 2.0 is supported.
-2026-05-25 00:43:30,627 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 3.0 is supported.
-2026-05-25 00:43:30,627 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: Tier 2
-2026-05-25 00:43:34,626 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:34,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:34,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:34,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:43:34,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-[Footer]
-[Header Microsoft Windows NT 6.2.9200.0]
-2026-05-25 00:45:32,221 [1] INFO  ? - Loaded tool: RootComponentTool
-2026-05-25 00:45:32,236 [1] INFO  ? - Loaded tool: ControlsTool
-2026-05-25 00:45:32,237 [1] INFO  ? - Loaded tool: GlobalReferenceTool
-2026-05-25 00:45:32,237 [1] INFO  ? - Loaded tool: FeatureSecurityToolCF
-2026-05-25 00:45:32,238 [1] INFO  ? - Loaded tool: PlatformFactoryToolCF
-2026-05-25 00:45:32,241 [1] INFO  ? - Loaded tool: StorageToolCF
-2026-05-25 00:45:32,244 [1] INFO  ? - Loaded tool: SQLiteDatabaseToolCF
-2026-05-25 00:45:32,244 [1] INFO  ? - Loaded tool: WebServerConfigToolCF
-2026-05-25 00:45:32,245 [1] INFO  ? - Loaded tool: VncToolCF
-2026-05-25 00:45:32,245 [1] INFO  ? - Loaded tool: TrendDataToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: TimeInformationToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: NativeToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: ScopeToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: KeyPanelConfigToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: NeedleAppearanceToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: ObjectSerializationToolCF
-2026-05-25 00:45:32,246 [1] INFO  ? - Loaded tool: TagMonitorDataToolCF
-2026-05-25 00:45:32,247 [1] INFO  ? - Loaded tool: OpcClientTool
-2026-05-25 00:45:32,247 [1] INFO  ? - Loaded tool: SystemTagTool
-2026-05-25 00:45:32,254 [1] INFO  ? - Loaded tool: ScreenManagerToolFull
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: SystemInformationTool
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: SymbolTool
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: StructuredTypesToolCF
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: SMSSenderTool
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: Run
-2026-05-25 00:45:32,255 [1] INFO  ? - Loaded tool: SimulationTool
-2026-05-25 00:45:32,256 [1] INFO  ? - Loaded tool: RenderableControlTool
-2026-05-25 00:45:32,256 [1] INFO  ? - Loaded tool: ProjectInformationToolCF
-2026-05-25 00:45:32,257 [1] INFO  ? - Loaded tool: PrinterToolCF
-2026-05-25 00:45:32,257 [1] INFO  ? - Loaded tool: NetworkToolCF
-2026-05-25 00:45:32,257 [1] INFO  ? - Loaded tool: DeviceManagerToolCF
-2026-05-25 00:45:32,257 [1] INFO  ? - Loaded tool: DelayInputTool
-2026-05-25 00:45:32,258 [1] INFO  ? - Loaded tool: DebugLoggerTool
-2026-05-25 00:45:32,258 [1] INFO  ? - Loaded tool: CachedDataItemToolCF
-2026-05-25 00:45:32,258 [1] INFO  ? - Loaded tool: BindingTool
-2026-05-25 00:45:32,261 [1] INFO  ? - Loaded tool: BacklightTool
-2026-05-25 00:45:32,261 [1] INFO  ? - Loaded tool: StorageCacheTool
-2026-05-25 00:45:32,261 [1] INFO  ? - Loaded tool: DatabaseTool
-2026-05-25 00:45:32,261 [1] INFO  ? - Loaded tool: MessageBoxTool
-2026-05-25 00:45:32,262 [1] INFO  ? - Loaded tool: StorageClientTool
-2026-05-25 00:45:32,262 [1] INFO  ? - Loaded tool: SplashServiceTool
-2026-05-25 00:45:32,263 [1] INFO  ? - Loaded tool: LicenseResolverTool
-2026-05-25 00:45:32,263 [1] INFO  ? - Loaded tool: LicenseToolCF
-2026-05-25 00:45:32,263 [1] INFO  ? - Loaded tool: HttpsTool
-2026-05-25 00:45:32,263 [1] INFO  ? - Loaded tool: CommandLineTool
-2026-05-25 00:45:32,263 [1] INFO  ? - Loaded tool: MessageFilterTool
-2026-05-25 00:45:32,264 [1] INFO  ? - Loaded tool: NotifierService
-2026-05-25 00:45:32,264 [1] INFO  ? - Loaded tool: PrintScreenTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: TimerTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: OpcUaClientToolCF
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: RecipeTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: MultiLanguageTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: HourglassToolCF
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: DrawingTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: NonVolatileTool
-2026-05-25 00:45:32,265 [1] INFO  ? - Loaded tool: EncryptionServiceTool
-2026-05-25 00:45:32,266 [1] INFO  ? - Loaded tool: EmailSenderTool
-2026-05-25 00:45:32,266 [1] INFO  ? - Loaded tool: DriverPropertiesToolCF
-2026-05-25 00:45:32,266 [1] INFO  ? - Loaded tool: DateTimeEditTool
-2026-05-25 00:45:32,266 [1] INFO  ? - Loaded tool: FastLoggingFeatureLogicToolCF
-2026-05-25 00:45:32,267 [1] INFO  ? - Loaded tool: BrandTool
-2026-05-25 00:45:32,269 [1] INFO  ? - Loaded tool: SecurityManagerTool
-2026-05-25 00:45:32,269 [1] INFO  ? - Loaded tool: ProjectTool
-2026-05-25 00:45:32,269 [1] INFO  ? - Loaded tool: AuditTrailTool
-2026-05-25 00:45:32,269 [1] INFO  ? - Loaded tool: UserChangedAuditTrailToolCF
-2026-05-25 00:45:32,269 [1] INFO  ? - Loaded tool: AlarmTool
-2026-05-25 00:45:32,272 [1] INFO  ? - Loaded tool: ThrusterNeedleAppearanceRuntimeTool
-2026-05-25 00:45:32,284 [1] INFO  ? - Loaded tool: StorageDeviceDetectionTool
-2026-05-25 00:45:32,434 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.53.65422.0
-2026-05-25 00:45:32,439 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:45:32,497 [1] INFO  ? - Initializing ToolManager
-2026-05-25 00:45:32,522 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:45:32,708 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
-2026-05-25 00:45:32,708 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
-2026-05-25 00:45:32,779 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
-2026-05-25 00:45:32,798 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
-2026-05-25 00:45:32,819 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check started.
-2026-05-25 00:45:32,819 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check finished without errors.
-2026-05-25 00:45:32,837 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup started.
-2026-05-25 00:45:32,856 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup recovered 0 bytes.
-2026-05-25 00:45:32,876 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
-2026-05-25 00:45:32,877 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
-2026-05-25 00:45:32,894 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
-2026-05-25 00:45:32,914 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
-2026-05-25 00:45:33,325 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:45:33,353 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:45:33,396 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 2.0 is supported.
-2026-05-25 00:45:33,396 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 3.0 is supported.
-2026-05-25 00:45:33,396 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: Tier 2
-2026-05-25 00:45:40,284 [20] ERROR Neo.ApplicationFramework.Tools.License.LicenseService - Missing license, forcing demo mode.
-2026-05-25 00:45:40,288 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:45:43,763 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:45:44,841 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed saved.
-2026-05-25 00:45:58,911 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:45:59,765 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed saved.
-2026-05-25 00:46:12,510 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:46:12,522 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed 30 saved.
-2026-05-25 00:46:16,896 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - End Offline Recipe Editing called on recipe
-2026-05-25 00:46:33,374 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:46:33,384 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 saved.
-2026-05-25 00:46:46,378 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:46:47,228 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 saved.
-2026-05-25 00:48:47,131 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:48:47,131 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:48:47,131 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:48:47,131 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:48:47,131 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-[Footer]
-[Header Microsoft Windows NT 6.2.9200.0]
-2026-05-25 00:50:20,317 [1] INFO  ? - Loaded tool: RootComponentTool
-2026-05-25 00:50:20,332 [1] INFO  ? - Loaded tool: ControlsTool
-2026-05-25 00:50:20,333 [1] INFO  ? - Loaded tool: GlobalReferenceTool
-2026-05-25 00:50:20,333 [1] INFO  ? - Loaded tool: FeatureSecurityToolCF
-2026-05-25 00:50:20,334 [1] INFO  ? - Loaded tool: PlatformFactoryToolCF
-2026-05-25 00:50:20,337 [1] INFO  ? - Loaded tool: StorageToolCF
-2026-05-25 00:50:20,340 [1] INFO  ? - Loaded tool: SQLiteDatabaseToolCF
-2026-05-25 00:50:20,340 [1] INFO  ? - Loaded tool: WebServerConfigToolCF
-2026-05-25 00:50:20,341 [1] INFO  ? - Loaded tool: VncToolCF
-2026-05-25 00:50:20,341 [1] INFO  ? - Loaded tool: TrendDataToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: TimeInformationToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: NativeToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: ScopeToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: KeyPanelConfigToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: NeedleAppearanceToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: ObjectSerializationToolCF
-2026-05-25 00:50:20,342 [1] INFO  ? - Loaded tool: TagMonitorDataToolCF
-2026-05-25 00:50:20,343 [1] INFO  ? - Loaded tool: OpcClientTool
-2026-05-25 00:50:20,343 [1] INFO  ? - Loaded tool: SystemTagTool
-2026-05-25 00:50:20,349 [1] INFO  ? - Loaded tool: ScreenManagerToolFull
-2026-05-25 00:50:20,350 [1] INFO  ? - Loaded tool: SystemInformationTool
-2026-05-25 00:50:20,350 [1] INFO  ? - Loaded tool: SymbolTool
-2026-05-25 00:50:20,351 [1] INFO  ? - Loaded tool: StructuredTypesToolCF
-2026-05-25 00:50:20,351 [1] INFO  ? - Loaded tool: SMSSenderTool
-2026-05-25 00:50:20,351 [1] INFO  ? - Loaded tool: Run
-2026-05-25 00:50:20,351 [1] INFO  ? - Loaded tool: SimulationTool
-2026-05-25 00:50:20,351 [1] INFO  ? - Loaded tool: RenderableControlTool
-2026-05-25 00:50:20,352 [1] INFO  ? - Loaded tool: ProjectInformationToolCF
-2026-05-25 00:50:20,353 [1] INFO  ? - Loaded tool: PrinterToolCF
-2026-05-25 00:50:20,353 [1] INFO  ? - Loaded tool: NetworkToolCF
-2026-05-25 00:50:20,353 [1] INFO  ? - Loaded tool: DeviceManagerToolCF
-2026-05-25 00:50:20,353 [1] INFO  ? - Loaded tool: DelayInputTool
-2026-05-25 00:50:20,353 [1] INFO  ? - Loaded tool: DebugLoggerTool
-2026-05-25 00:50:20,354 [1] INFO  ? - Loaded tool: CachedDataItemToolCF
-2026-05-25 00:50:20,354 [1] INFO  ? - Loaded tool: BindingTool
-2026-05-25 00:50:20,357 [1] INFO  ? - Loaded tool: BacklightTool
-2026-05-25 00:50:20,357 [1] INFO  ? - Loaded tool: StorageCacheTool
-2026-05-25 00:50:20,357 [1] INFO  ? - Loaded tool: DatabaseTool
-2026-05-25 00:50:20,357 [1] INFO  ? - Loaded tool: MessageBoxTool
-2026-05-25 00:50:20,358 [1] INFO  ? - Loaded tool: StorageClientTool
-2026-05-25 00:50:20,358 [1] INFO  ? - Loaded tool: SplashServiceTool
-2026-05-25 00:50:20,358 [1] INFO  ? - Loaded tool: LicenseResolverTool
-2026-05-25 00:50:20,358 [1] INFO  ? - Loaded tool: LicenseToolCF
-2026-05-25 00:50:20,358 [1] INFO  ? - Loaded tool: HttpsTool
-2026-05-25 00:50:20,359 [1] INFO  ? - Loaded tool: CommandLineTool
-2026-05-25 00:50:20,359 [1] INFO  ? - Loaded tool: MessageFilterTool
-2026-05-25 00:50:20,360 [1] INFO  ? - Loaded tool: NotifierService
-2026-05-25 00:50:20,360 [1] INFO  ? - Loaded tool: PrintScreenTool
-2026-05-25 00:50:20,360 [1] INFO  ? - Loaded tool: TimerTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: OpcUaClientToolCF
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: RecipeTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: MultiLanguageTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: HourglassToolCF
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: DrawingTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: NonVolatileTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: EncryptionServiceTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: EmailSenderTool
-2026-05-25 00:50:20,361 [1] INFO  ? - Loaded tool: DriverPropertiesToolCF
-2026-05-25 00:50:20,362 [1] INFO  ? - Loaded tool: DateTimeEditTool
-2026-05-25 00:50:20,362 [1] INFO  ? - Loaded tool: FastLoggingFeatureLogicToolCF
-2026-05-25 00:50:20,363 [1] INFO  ? - Loaded tool: BrandTool
-2026-05-25 00:50:20,365 [1] INFO  ? - Loaded tool: SecurityManagerTool
-2026-05-25 00:50:20,365 [1] INFO  ? - Loaded tool: ProjectTool
-2026-05-25 00:50:20,365 [1] INFO  ? - Loaded tool: AuditTrailTool
-2026-05-25 00:50:20,365 [1] INFO  ? - Loaded tool: UserChangedAuditTrailToolCF
-2026-05-25 00:50:20,366 [1] INFO  ? - Loaded tool: AlarmTool
-2026-05-25 00:50:20,368 [1] INFO  ? - Loaded tool: ThrusterNeedleAppearanceRuntimeTool
-2026-05-25 00:50:20,380 [1] INFO  ? - Loaded tool: StorageDeviceDetectionTool
-2026-05-25 00:50:20,530 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.53.65422.0
-2026-05-25 00:50:20,534 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:50:20,593 [1] INFO  ? - Initializing ToolManager
-2026-05-25 00:50:20,618 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:50:20,832 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
-2026-05-25 00:50:20,832 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
-2026-05-25 00:50:20,907 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
-2026-05-25 00:50:20,927 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
-2026-05-25 00:50:20,947 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check started.
-2026-05-25 00:50:20,947 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check finished without errors.
-2026-05-25 00:50:20,968 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup started.
-2026-05-25 00:50:20,987 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup recovered 0 bytes.
-2026-05-25 00:50:21,006 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
-2026-05-25 00:50:21,007 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
-2026-05-25 00:50:21,027 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
-2026-05-25 00:50:21,047 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
-2026-05-25 00:50:21,471 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:50:21,500 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:50:21,543 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 2.0 is supported.
-2026-05-25 00:50:21,543 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 3.0 is supported.
-2026-05-25 00:50:21,543 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: Tier 2
-2026-05-25 00:50:28,431 [20] ERROR Neo.ApplicationFramework.Tools.License.LicenseService - Missing license, forcing demo mode.
-2026-05-25 00:50:28,435 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:50:37,714 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
-2026-05-25 00:50:38,777 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed saved.
-2026-05-25 00:50:42,518 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:50:42,523 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:50:45,293 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:50:45,294 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed loaded.
-2026-05-25 00:50:49,072 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:50:49,072 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:51:29,117 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:51:29,118 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed loaded.
-2026-05-25 00:51:32,686 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:51:32,687 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:51:36,391 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:51:36,392 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed loaded.
-2026-05-25 00:52:08,649 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:52:08,650 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed 30 loaded.
-2026-05-25 00:52:17,418 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:52:17,419 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:52:49,047 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Start Offline Recipe Editing called on recipe
-2026-05-25 00:52:57,280 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Start Offline Recipe Editing called on recipe
-2026-05-25 00:52:58,512 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - End Offline Recipe Editing called on recipe
-2026-05-25 00:53:25,055 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:53:25,055 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed 30 loaded.
-2026-05-25 00:53:28,987 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:53:28,988 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Full Speed loaded.
-2026-05-25 00:53:33,644 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:53:33,644 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:55:15,320 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:15,321 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:15,321 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:15,321 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:15,321 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-[Footer]
-[Header Microsoft Windows NT 6.2.9200.0]
-2026-05-25 00:55:27,436 [1] INFO  ? - Loaded tool: RootComponentTool
-2026-05-25 00:55:27,451 [1] INFO  ? - Loaded tool: ControlsTool
-2026-05-25 00:55:27,452 [1] INFO  ? - Loaded tool: GlobalReferenceTool
-2026-05-25 00:55:27,452 [1] INFO  ? - Loaded tool: FeatureSecurityToolCF
-2026-05-25 00:55:27,453 [1] INFO  ? - Loaded tool: PlatformFactoryToolCF
-2026-05-25 00:55:27,456 [1] INFO  ? - Loaded tool: StorageToolCF
-2026-05-25 00:55:27,460 [1] INFO  ? - Loaded tool: SQLiteDatabaseToolCF
-2026-05-25 00:55:27,460 [1] INFO  ? - Loaded tool: WebServerConfigToolCF
-2026-05-25 00:55:27,461 [1] INFO  ? - Loaded tool: VncToolCF
-2026-05-25 00:55:27,461 [1] INFO  ? - Loaded tool: TrendDataToolCF
-2026-05-25 00:55:27,461 [1] INFO  ? - Loaded tool: TimeInformationToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: NativeToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: ScopeToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: KeyPanelConfigToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: NeedleAppearanceToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: ObjectSerializationToolCF
-2026-05-25 00:55:27,462 [1] INFO  ? - Loaded tool: TagMonitorDataToolCF
-2026-05-25 00:55:27,463 [1] INFO  ? - Loaded tool: OpcClientTool
-2026-05-25 00:55:27,463 [1] INFO  ? - Loaded tool: SystemTagTool
-2026-05-25 00:55:27,469 [1] INFO  ? - Loaded tool: ScreenManagerToolFull
-2026-05-25 00:55:27,470 [1] INFO  ? - Loaded tool: SystemInformationTool
-2026-05-25 00:55:27,470 [1] INFO  ? - Loaded tool: SymbolTool
-2026-05-25 00:55:27,471 [1] INFO  ? - Loaded tool: StructuredTypesToolCF
-2026-05-25 00:55:27,471 [1] INFO  ? - Loaded tool: SMSSenderTool
-2026-05-25 00:55:27,471 [1] INFO  ? - Loaded tool: Run
-2026-05-25 00:55:27,471 [1] INFO  ? - Loaded tool: SimulationTool
-2026-05-25 00:55:27,471 [1] INFO  ? - Loaded tool: RenderableControlTool
-2026-05-25 00:55:27,472 [1] INFO  ? - Loaded tool: ProjectInformationToolCF
-2026-05-25 00:55:27,472 [1] INFO  ? - Loaded tool: PrinterToolCF
-2026-05-25 00:55:27,473 [1] INFO  ? - Loaded tool: NetworkToolCF
-2026-05-25 00:55:27,473 [1] INFO  ? - Loaded tool: DeviceManagerToolCF
-2026-05-25 00:55:27,473 [1] INFO  ? - Loaded tool: DelayInputTool
-2026-05-25 00:55:27,473 [1] INFO  ? - Loaded tool: DebugLoggerTool
-2026-05-25 00:55:27,473 [1] INFO  ? - Loaded tool: CachedDataItemToolCF
-2026-05-25 00:55:27,474 [1] INFO  ? - Loaded tool: BindingTool
-2026-05-25 00:55:27,477 [1] INFO  ? - Loaded tool: BacklightTool
-2026-05-25 00:55:27,477 [1] INFO  ? - Loaded tool: StorageCacheTool
-2026-05-25 00:55:27,477 [1] INFO  ? - Loaded tool: DatabaseTool
-2026-05-25 00:55:27,477 [1] INFO  ? - Loaded tool: MessageBoxTool
-2026-05-25 00:55:27,478 [1] INFO  ? - Loaded tool: StorageClientTool
-2026-05-25 00:55:27,478 [1] INFO  ? - Loaded tool: SplashServiceTool
-2026-05-25 00:55:27,478 [1] INFO  ? - Loaded tool: LicenseResolverTool
-2026-05-25 00:55:27,478 [1] INFO  ? - Loaded tool: LicenseToolCF
-2026-05-25 00:55:27,478 [1] INFO  ? - Loaded tool: HttpsTool
-2026-05-25 00:55:27,479 [1] INFO  ? - Loaded tool: CommandLineTool
-2026-05-25 00:55:27,479 [1] INFO  ? - Loaded tool: MessageFilterTool
-2026-05-25 00:55:27,480 [1] INFO  ? - Loaded tool: NotifierService
-2026-05-25 00:55:27,480 [1] INFO  ? - Loaded tool: PrintScreenTool
-2026-05-25 00:55:27,480 [1] INFO  ? - Loaded tool: TimerTool
-2026-05-25 00:55:27,480 [1] INFO  ? - Loaded tool: OpcUaClientToolCF
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: RecipeTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: MultiLanguageTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: HourglassToolCF
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: DrawingTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: NonVolatileTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: EncryptionServiceTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: EmailSenderTool
-2026-05-25 00:55:27,481 [1] INFO  ? - Loaded tool: DriverPropertiesToolCF
-2026-05-25 00:55:27,482 [1] INFO  ? - Loaded tool: DateTimeEditTool
-2026-05-25 00:55:27,482 [1] INFO  ? - Loaded tool: FastLoggingFeatureLogicToolCF
-2026-05-25 00:55:27,483 [1] INFO  ? - Loaded tool: BrandTool
-2026-05-25 00:55:27,484 [1] INFO  ? - Loaded tool: SecurityManagerTool
-2026-05-25 00:55:27,485 [1] INFO  ? - Loaded tool: ProjectTool
-2026-05-25 00:55:27,485 [1] INFO  ? - Loaded tool: AuditTrailTool
-2026-05-25 00:55:27,485 [1] INFO  ? - Loaded tool: UserChangedAuditTrailToolCF
-2026-05-25 00:55:27,485 [1] INFO  ? - Loaded tool: AlarmTool
-2026-05-25 00:55:27,489 [1] INFO  ? - Loaded tool: ThrusterNeedleAppearanceRuntimeTool
-2026-05-25 00:55:27,501 [1] INFO  ? - Loaded tool: StorageDeviceDetectionTool
-2026-05-25 00:55:27,651 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.53.65422.0
-2026-05-25 00:55:27,656 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:55:27,714 [1] INFO  ? - Initializing ToolManager
-2026-05-25 00:55:27,739 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.?()
-   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
-2026-05-25 00:55:27,926 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
-2026-05-25 00:55:27,926 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
-2026-05-25 00:55:27,998 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
-2026-05-25 00:55:28,021 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
-2026-05-25 00:55:28,043 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check started.
-2026-05-25 00:55:28,043 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check finished without errors.
-2026-05-25 00:55:28,064 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup started.
-2026-05-25 00:55:28,087 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Cleanup recovered 0 bytes.
-2026-05-25 00:55:28,109 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
-2026-05-25 00:55:28,109 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
-2026-05-25 00:55:28,129 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
-2026-05-25 00:55:28,151 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
-2026-05-25 00:55:28,583 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:55:28,614 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
-2026-05-25 00:55:28,659 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 2.0 is supported.
-2026-05-25 00:55:28,659 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 3.0 is supported.
-2026-05-25 00:55:28,659 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: Tier 2
-2026-05-25 00:55:35,404 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:55:35,416 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:55:35,545 [20] ERROR Neo.ApplicationFramework.Tools.License.LicenseService - Missing license, forcing demo mode.
-2026-05-25 00:55:35,548 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:42,257 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
-2026-05-25 00:55:42,258 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Speed40 loaded.
-2026-05-25 00:55:50,311 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:50,312 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:50,312 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:50,312 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
-2026-05-25 00:55:50,312 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:06:59,857 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:06:59,857 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:06:59,857 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:06:59,857 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:06:59,976 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
+2026-05-25 01:07:00,005 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2026-05-25 01:07:00,006 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2026-05-25 01:07:00,010 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
+2026-05-25 01:07:00,062 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2026-05-25 01:07:00,084 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 32960 bytes.
+2026-05-25 01:07:00,111 [8] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
+2026-05-25 01:07:00,137 [8] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2026-05-25 01:07:00,138 [8] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2026-05-25 01:07:00,139 [8] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
+2026-05-25 01:07:00,304 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Creating database with page size 4096 bytes.
+2026-05-25 01:07:00,329 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check started.
+2026-05-25 01:07:00,330 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Integrity check finished without errors.
+2026-05-25 01:07:00,330 [1] INFO  Storage.Providers.CommonDatabase.CommonDatabaseBase - AuditTrail: Database created.
+2026-05-25 01:07:00,526 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'Recipe1'
+2026-05-25 01:07:00,598 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
+2026-05-25 01:07:00,625 [1] WARN  Neo.ApplicationFramework.Controls.ClassicTrueColor.ClassicTrueColorResourceFinder - Service: IClassicTrueColorResourceFinderService was not found.
+2026-05-25 01:07:00,666 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 2.0 is supported.
+2026-05-25 01:07:00,666 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: PixelShader 3.0 is supported.
+2026-05-25 01:07:00,666 [1] INFO  Neo.ApplicationFramework.Common.Utilities.RenderCapabilityLogger - RenderCapability: Tier 2
+2026-05-25 01:07:07,559 [15] ERROR Neo.ApplicationFramework.Tools.License.LicenseService - Missing license, forcing demo mode.
+2026-05-25 01:07:07,562 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:13:37,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:13:37,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:13:37,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:13:37,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2026-05-25 01:13:37,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
 [Footer]

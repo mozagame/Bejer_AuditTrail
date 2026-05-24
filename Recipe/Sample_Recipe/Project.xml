@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project SchemaVersion="2.53.65422.0" ProjectRevision="35">
+<Project SchemaVersion="2.53.65422.0" ProjectRevision="38">
   <Guid>4f6829d4-c73e-4987-9813-14f0d4256bd3</Guid>
   <ProjectFiles>
-    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-05-25T00:49:58.1628217+07:00" Length="25282" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-05-25T01:00:10.9094119+07:00" Length="26342" />
     <ProjectFile Name="ProjectImages.neo" ModifiedDate="2026-05-25T00:41:29.8453171+07:00" Length="490" />
     <ProjectFile Name="Symbols\close.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="7189" />
     <ProjectFile Name="Symbols\delete recipe.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5927" />
@@ -21,24 +21,24 @@
     <ProjectFile Name="Symbols\next user.png" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5569" />
     <ProjectFile Name="Security.neo" ModifiedDate="2026-05-25T00:48:29.1399022+07:00" Length="519" />
     <ProjectFile Name="Security.xml" ModifiedDate="2026-05-25T00:48:29.1399022+07:00" Length="1406" />
-    <ProjectFile Name="Tags.neo" ModifiedDate="2026-05-25T00:55:13.3307054+07:00" Length="19957" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-05-25T01:06:42.4520603+07:00" Length="21330" />
     <ProjectFile Name="AlarmServer.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="1006" />
     <ProjectFile Name="Expressions.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="511" />
     <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="6405" />
     <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-05-24T23:42:03.874425+07:00" Length="13463" />
     <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="497" />
-    <ProjectFile Name="AuditTrail.neo" ModifiedDate="2026-05-25T00:26:20.0236018+07:00" Length="10572" />
+    <ProjectFile Name="AuditTrail.neo" ModifiedDate="2026-05-25T01:00:10.9183924+07:00" Length="10423" />
     <ProjectFile Name="Recipe.neoxaml" ModifiedDate="2026-05-25T00:49:40.9990791+07:00" Length="834" />
     <ProjectFile Name="Recipe.Script.cs" ModifiedDate="2026-05-25T00:49:40.9990791+07:00" Length="781" />
     <ProjectFile Name="Recipe.xaml" ModifiedDate="2026-05-25T00:49:41.122086+07:00" Length="38422" />
     <ProjectFile Name="PC_backg_h1.neoxaml" ModifiedDate="2026-05-25T00:45:21.4180848+07:00" Length="839" />
     <ProjectFile Name="PC_backg_h1.xaml" ModifiedDate="2026-05-25T00:45:21.4420905+07:00" Length="8459" />
-    <ProjectFile Name="Audit.neoxaml" ModifiedDate="2026-05-25T00:29:21.602784+07:00" Length="846" />
-    <ProjectFile Name="Audit.xaml" ModifiedDate="2026-05-25T00:29:21.6177989+07:00" Length="3744" />
+    <ProjectFile Name="Audit.neoxaml" ModifiedDate="2026-05-25T01:00:10.9293992+07:00" Length="833" />
+    <ProjectFile Name="Audit.xaml" ModifiedDate="2026-05-25T01:00:10.9694111+07:00" Length="5138" />
     <ProjectFile Name="Screen_Security.neoxaml" ModifiedDate="2026-05-25T00:49:58.1928351+07:00" Length="843" />
     <ProjectFile Name="Screen_Security.Script.cs" ModifiedDate="2026-05-25T00:49:58.1928351+07:00" Length="795" />
     <ProjectFile Name="Screen_Security.xaml" ModifiedDate="2026-05-25T00:49:58.4328128+07:00" Length="85928" />
-    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-05-25T00:55:13.3606986+07:00" Length="2758" />
+    <ProjectFile Name="Controller1.neo" ModifiedDate="2026-05-25T01:06:42.4890502+07:00" Length="3018" />
     <ProjectFile Name="Recipe1.neo" ModifiedDate="2025-05-15T11:52:36+07:00" Length="5994" />
     <ProjectFile Name="Printer1.xml" ModifiedDate="2025-05-15T11:52:36+07:00" Length="850" />
   </ProjectFiles>
