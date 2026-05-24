@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataSourceContainer, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DriverInitializationString="" DriverFormat="MPD" Name="Controller" Driver="SIMATIC_S7_ISO_TCP_Pre2.SIMATIC_S7_ISO_TCP_Pre2.1" Servername="Beijer.InprocessNeo.2" Node="" TargetInfoString="iXDeveloper;WinXP;Beijer;PC;PC;en;" d1p1:Site.Name="Controller" ProjectGuid="6ff5a6ed-02bc-413f-972b-33047a9b4d4e">
+    <OpcUaNamespaceInfos>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcUaClient.OpcUaNamespaceInfos, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+    </OpcUaNamespaceInfos>
+  </Object>
+</NeoItem>
