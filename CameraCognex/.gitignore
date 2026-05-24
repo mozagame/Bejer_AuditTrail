@@ -1,0 +1,20 @@
+# IX Developer Build Outputs
+BuildFiles/
+Temp/
+*.csproj
+*.sln
+*.user
+*.suo
+*.cache
+
+# IX Developer compiled files
+*.cri
+~*
+
+# Keep project files
+!*.neoproj
+!*.neo
+!*.xaml
+!*.neoxaml
+!*.xml
+!*.cfg

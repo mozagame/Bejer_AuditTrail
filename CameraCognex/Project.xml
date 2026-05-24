@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.53.65422.0" ProjectRevision="31">
+  <Guid>82378ef0-f146-4529-8965-8bfa82126f40</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ReferencedAssembly\Cognex.DataMan.SDK.PC.dll" ModifiedDate="2026-05-17T23:30:20+07:00" Length="75264" />
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="490" />
+    <ProjectFile Name="Symbols\camera.lib" ModifiedDate="2026-05-17T23:30:20+07:00" Length="31531" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="551" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="6446" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="493" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="485" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2026-05-17T23:30:20+07:00" Length="696" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="13463" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2026-05-18T20:50:05.0053398+07:00" Length="4496" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="2168" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2026-05-17T23:30:20+07:00" Length="1092" />
+    <ProjectFile Name="ScrCamera.neoxaml" ModifiedDate="2026-05-18T20:36:57.84817+07:00" Length="837" />
+    <ProjectFile Name="ScrCamera.Script.cs" ModifiedDate="2026-05-18T20:36:57.84817+07:00" Length="14223" />
+    <ProjectFile Name="ScrCamera.xaml" ModifiedDate="2026-05-18T20:36:57.866541+07:00" Length="3737" />
+    <ProjectFile Name="ScrRecipe.neoxaml" ModifiedDate="2026-05-18T20:50:05.0263264+07:00" Length="854" />
+    <ProjectFile Name="ScrRecipe.xaml" ModifiedDate="2026-05-18T20:50:05.0381921+07:00" Length="894" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2026-05-17T23:30:20+07:00" Length="850" />
+    <ProjectFile Name="Siemens.neo" ModifiedDate="2026-05-18T20:50:05.0483649+07:00" Length="918" />
+    <ProjectFile Name="Recipe01.neo" ModifiedDate="2026-05-18T20:53:01.9105374+07:00" Length="4034" />
+  </ProjectFiles>
+</Project>

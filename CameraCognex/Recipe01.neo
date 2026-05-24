@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.Recipe, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" SchemaVersion="31" Guid="a9563036-cd33-41ef-9e89-6a9326a51b90" TableName="Recipe01" Name="Recipe01" d1p1:Site.Name="Recipe01" ProjectGuid="82378ef0-f146-4529-8965-8bfa82126f40">
+    <RecipeItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="Speed" DataConnection="Tags.RecipeSpeed" ColumnName="Speed" VisualSortOrder="1" d1p1:Site.Name="Speed" ProjectGuid="82378ef0-f146-4529-8965-8bfa82126f40" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="Temperature" DataConnection="Tags.RecipeTemperature" ColumnName="Temperature" VisualSortOrder="2" d1p1:Site.Name="Temperature" ProjectGuid="82378ef0-f146-4529-8965-8bfa82126f40" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="Barcode" DataConnection="Tags.RecipeBarcode" ColumnName="Barcode" VisualSortOrder="3" d1p1:Site.Name="Barcode" ProjectGuid="82378ef0-f146-4529-8965-8bfa82126f40">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="RecipeTitle">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="''" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="RecipeTitle1">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="''" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="BatchNumber" DataConnection="Tags.RecipeBatchNumber" ColumnName="BatchNumber" VisualSortOrder="4" d1p1:Site.Name="BatchNumber" ProjectGuid="82378ef0-f146-4529-8965-8bfa82126f40">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="RecipeTitle">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="''" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="RecipeTitle1">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="''" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+    </RecipeItems>
+    <FieldNames>
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RecipeTitle" />
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="RecipeTitle1" />
+    </FieldNames>
+  </Object>
+</NeoItem>

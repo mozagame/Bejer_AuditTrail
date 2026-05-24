@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/BuildFiles": true,
+    "**/Temp": true,
+    "**/*.csproj": true,
+    "**/*.sln": true,
+    "**/*.user": true,
+    "**/*.suo": true,
+    "**/*.cache": true
+  },
+  "files.watcherExclude": {
+    "**/BuildFiles/**": true,
+    "**/Temp/**": true,
+    "**/*.csproj": true,
+    "**/*.sln": true
+  },
+  "search.exclude": {
+    "**/BuildFiles": true,
+    "**/Temp": true
+  }
+}
