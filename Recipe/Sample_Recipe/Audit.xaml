@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
-<nacs:ScreenWindow Topmost="False" Title="Audit" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" StyleName="Default" IsCacheable="True" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.AuditTrail;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.Audit">
-  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
-    <naca:AuditTrailViewer VistaStyle="True" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AuditTrailViewer" Width="970.852470671881" Height="668.348382509776" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="17.4276573053675" Canvas.Top="83.379736935656">
+<nacs:ScreenWindow Topmost="False" Title="Audit" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" StyleName="Default" IsCacheable="True" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.AuditTrail;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.Audit">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto">
+    <naca:AuditTrailViewer VistaStyle="True" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AuditTrailViewer" Width="970.852470671881" Height="668.348382509776" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="17.4276573053675" Canvas.Top="90.4782083185213">
       <naca:AuditTrailViewer.VisibleColumns>
         <x:Array Type="nai:IColumnInfo">
           <nacl:AlarmColumnInfo MappingName="Message" HeaderName="Message" ColumnWidth="344.85247067188084" />
@@ -28,7 +28,7 @@
         </nai1:ActionList>
       </nai1:ActionProperties.Actions>
     </nac:Button>
-    <nac:AnalogNumericFX AutoStretchFont="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="169.271240668326" Height="49.1432634198364" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="True" Panel.ZIndex="3" KeyboardNavigation.TabNavigation="None" Canvas.Left="70.9392108069677" Canvas.Top="20.039530750089">
+    <nac:AnalogNumericFX AutoStretchFont="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" BorderBrush="#FF7F9DB9" BorderThickness="1,1,1,1" Foreground="#FF000000" FontSize="20" Padding="2,2,2,2" Name="m_AnaSetPoint" Width="169.271240668326" Height="49.1432634198364" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="True" Panel.ZIndex="3" KeyboardNavigation.TabNavigation="None" Canvas.Left="103.701386420192" Canvas.Top="27.3285460362604">
       <nac:AnalogNumericFX.BevelEffectInfo>
         <nacb:BevelEffectInfo Style="Sunken" Width="2" />
       </nac:AnalogNumericFX.BevelEffectInfo>
@@ -46,5 +46,50 @@
         </LinearGradientBrush>
       </nac:AnalogNumericFX.Background>
     </nac:AnalogNumericFX>
+    <nac:Button Text="Start" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button1" Width="126.680412371134" Height="54.6036260220405" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="282.801279772485" Canvas.Top="24.5983647351583" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.btStart].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Value>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai1:ActionProperties.Actions>
+        <nai1:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.btStart" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai1:ActionList>
+      </nai1:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Stop" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_Button2" Width="139.785282616424" Height="49.1432634198364" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="417.481692143619" Canvas.Top="27.3285460362603" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai1:ActionProperties.Actions>
+        <nai1:ActionList>
+          <nata:Action Name="Set Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="SetTag" ObjectName="Tags.btStop" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai1:ActionList>
+      </nai1:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Button Text="Refresh" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_btAuditRefresh" Width="76.4450764308567" Height="48.0511908993956" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="17.4276573053675" Canvas.Top="27.3285460362604" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+    </nac:Button>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

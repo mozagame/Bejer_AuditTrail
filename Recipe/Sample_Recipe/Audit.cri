@@ -25,6 +25,8 @@
     <Category Name="Events">
       <Items>
         <Item xsi:type="ActionItem" Target="Audit.Button" TargetProperty="Actions" Event="Click" Action="Show Previous Screen" />
+        <Item xsi:type="ActionItem" Target="Audit.Button1" TargetProperty="Actions" Event="Click" Action="Toggle Tag" />
+        <Item xsi:type="ActionItem" Target="Audit.Button2" TargetProperty="Actions" Event="Click" Action="Set Tag" />
       </Items>
     </Category>
     <Category Name="Expression">
@@ -34,7 +36,11 @@
       <Items />
     </Category>
     <Category Name="GlobalDataItem">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="Audit.Button1" TargetProperty="Actions" Source="Tags.btStart" Event="Click" Action="Toggle Tag" Param="" />
+        <Item Target="Audit.Button1" TargetProperty="Value" Source="Tags.btStart" />
+        <Item xsi:type="ActionItem" Target="Audit.Button2" TargetProperty="Actions" Source="Tags.btStop" Event="Click" Action="Set Tag" Param="" />
+      </Items>
     </Category>
     <Category Name="InvalidAction">
       <Items />
@@ -59,7 +65,7 @@
             </Detail>
             <Detail>
               <Key>Button</Key>
-              <Value>1</Value>
+              <Value>4</Value>
             </Detail>
             <Detail>
               <Key>AnalogNumericFX</Key>
@@ -81,7 +87,7 @@
     <Category Name="Screen">
       <Items>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>3</ObjectsCount>
+          <ObjectsCount>6</ObjectsCount>
           <ScreenName>Audit</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">
@@ -93,7 +99,10 @@
       <Items />
     </Category>
     <Category Name="StructuredTag">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="Audit.Button1" TargetProperty="Actions" Source="Tags.btStart" Event="Click" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="Audit.Button2" TargetProperty="Actions" Source="Tags.btStop" Event="Click" Action="Set Tag" Param="" />
+      </Items>
     </Category>
     <Category Name="Symbol">
       <Items />

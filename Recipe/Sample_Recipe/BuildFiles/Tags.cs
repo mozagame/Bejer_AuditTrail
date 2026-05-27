@@ -47,6 +47,10 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Temp;
 		
+		public Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem btStart;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem btStop;
+		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup1;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup2;
@@ -98,7 +102,9 @@ namespace Neo.ApplicationFramework.Generated
 			this.valve314 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve314", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
 			this.valve315 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve315", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
 			this.valve316 = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("valve316", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), false, "", null);
-			this.Temp = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Temp", "Controller1.DataItem8", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL4)), true, "", null);
+			this.Temp = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Temp", "Controller1.DataItem8", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL4)), false, "", null);
+			this.btStart = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStart", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
+			this.btStop = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStop", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
 			this.PollGroup1 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup2 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup3 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
@@ -120,6 +126,12 @@ namespace Neo.ApplicationFramework.Generated
 		{
 			this.SystemTagLatestLoadedRecipeName.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[0], new string[0], true));
 			this.SystemTagLatestLoadedRecipeName.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 1, new string[0], new string[0], true));
+			this.btStart.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[] {
+							"Controller1"}, new string[] {
+							"DataItem9"}, true));
+			this.btStop.GlobalDataSubItems.Add(new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem(null, 0, new string[] {
+							"Controller1"}, new string[] {
+							"DataItem10"}, true));
 			this.GlobalDataItems.Add(this.SystemTagLatestLoadedRecipeName);
 			this.LightweightTags.Add(this.RecipeL1);
 			this.LightweightTags.Add(this.RecipeL2);
@@ -135,6 +147,8 @@ namespace Neo.ApplicationFramework.Generated
 			this.LightweightTags.Add(this.valve315);
 			this.LightweightTags.Add(this.valve316);
 			this.LightweightTags.Add(this.Temp);
+			this.GlobalDataItems.Add(this.btStart);
+			this.GlobalDataItems.Add(this.btStop);
 			this.PollGroup1.Interval = 500;
 			this.PollGroup1.Name = "PollGroup1";
 			this.PollGroup2.Interval = 500;
@@ -260,6 +274,42 @@ namespace Neo.ApplicationFramework.Generated
 		public string GetDescription(double value)
 		{
 			return "Comment";
+		}
+	}
+	
+	[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+	public class AuditTrailDescriptionsForbtStart : Neo.ApplicationFramework.Interfaces.IAuditTrailDescriptions
+	{
+		
+		public string GetDescription(double value)
+		{
+			if ((value == 0D))
+			{
+				return "Button Start None Actived";
+			}
+			if ((value == 1D))
+			{
+				return "Button Start Actived";
+			}
+			return string.Empty;
+		}
+	}
+	
+	[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+	public class AuditTrailDescriptionsForbtStop : Neo.ApplicationFramework.Interfaces.IAuditTrailDescriptions
+	{
+		
+		public string GetDescription(double value)
+		{
+			if ((value == 0D))
+			{
+				return "Button Stop None Actived";
+			}
+			if ((value == 1D))
+			{
+				return "Button Stop Actived";
+			}
+			return string.Empty;
 		}
 	}
 }

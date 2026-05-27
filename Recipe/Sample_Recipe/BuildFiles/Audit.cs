@@ -24,6 +24,8 @@ namespace Neo.ApplicationFramework.Generated
 			this.InitializeComponent();
 			this.ApplyLanguageInternal();
 			this.m_Button.Click += new System.Windows.RoutedEventHandler(this.m_Button_Action_Click);
+			this.m_Button1.Click += new System.Windows.RoutedEventHandler(this.m_Button1_Action_Click);
+			this.m_Button2.Click += new System.Windows.RoutedEventHandler(this.m_Button2_Action_Click);
 		}
 		
 		protected Neo.ApplicationFramework.Controls.Script.ElementAdapter AuditTrailViewer
@@ -42,11 +44,35 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
-		protected Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter AnalogNumeric
+		protected Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter AnaSetPoint
 		{
 			get
 			{
-				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter>(this.m_AnalogNumeric);
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.AnalogNumericAdapter>(this.m_AnaSetPoint);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button1
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button1);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button2
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_Button2);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter btAuditRefresh
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_btAuditRefresh);
 			}
 		}
 		
@@ -76,6 +102,9 @@ namespace Neo.ApplicationFramework.Generated
 		{
 			Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager resources = new Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager(typeof(Audit));
 			this.m_Button.Text = resources.GetText("Audit.Button.Text", "Back");
+			this.m_Button1.Text = resources.GetText("Audit.Button1.Text", "Start");
+			this.m_Button2.Text = resources.GetText("Audit.Button2.Text", "Stop");
+			this.m_btAuditRefresh.Text = resources.GetText("Audit.btAuditRefresh.Text", "Refresh");
 			this.ApplyResourcesOnWindow();
 		}
 		
@@ -105,6 +134,16 @@ namespace Neo.ApplicationFramework.Generated
 		private void m_Button_Action_Click(object sender, System.EventArgs e)
 		{
 			Core.Api.Service.ServiceContainerCF.GetService<Neo.ApplicationFramework.Interfaces.IScreenManager>().ActionBackScreen();
+		}
+		
+		private void m_Button1_Action_Click(object sender, System.EventArgs e)
+		{
+			Neo.ApplicationFramework.Generated.Globals.Tags.btStart.ToggleTag();
+		}
+		
+		private void m_Button2_Action_Click(object sender, System.EventArgs e)
+		{
+			Neo.ApplicationFramework.Generated.Globals.Tags.btStop.SetTag();
 		}
 	}
 }

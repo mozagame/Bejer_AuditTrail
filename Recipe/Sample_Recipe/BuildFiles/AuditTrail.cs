@@ -30,8 +30,6 @@ namespace Neo.ApplicationFramework.Generated
 			// 
 			this.CyclicLogging = false;
 			this.MaxSize = 5;
-			this.SuppressedLogActionNameList.Add("Acknowledge All Alarms");
-			this.SuppressedLogActionNameList.Add("Acknowledge Selected Alarm");
 			this.SuppressedLogActionNameList.Add("Acknowledge Visible Alarms");
 			this.SuppressedLogActionNameList.Add("Alarm Info");
 			this.SuppressedLogActionNameList.Add("Clear All Alarms");
@@ -77,7 +75,6 @@ namespace Neo.ApplicationFramework.Generated
 			this.SuppressedLogActionNameList.Add("Set Language");
 			this.SuppressedLogActionNameList.Add("Change Active Controllers");
 			this.SuppressedLogActionNameList.Add("Clear Non Volatile Values");
-			this.SuppressedLogActionNameList.Add("Load Recipe");
 			this.SuppressedLogActionNameList.Add("End Offline Recipe Editing");
 			this.SuppressedLogActionNameList.Add("Export Recipe");
 			this.SuppressedLogActionNameList.Add("Import Recipe");
@@ -90,6 +87,10 @@ namespace Neo.ApplicationFramework.Generated
 			this.SuppressedLogActionNameList.Add("Import user accounts");
 			this.SuppressedLogActionNameList.Add("Logout");
 			this.SuppressedLogActionNameList.Add("Show Users Dialog");
+			this.SuppressedLogActionNameList.Add("Decrement Analog");
+			this.SuppressedLogActionNameList.Add("Increment Analog");
+			this.SuppressedLogActionNameList.Add("Set Analog");
+			this.SuppressedLogActionNameList.Add("Set Tag");
 			this.ConnectDataBindings();
 		}
 		

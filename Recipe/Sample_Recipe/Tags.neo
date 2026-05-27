@@ -228,7 +228,7 @@
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
         </GlobalDataSubItems>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" AlwaysActive="True" DataType="DT_REAL4" d1p1:Site.Name="Temp" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_REAL4" d1p1:Site.Name="Temp" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
         <GlobalDataSubItems>
           <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
             <DataItemNames>
@@ -245,6 +245,46 @@
         </GlobalDataSubItems>
         <AuditTrailDescription>
           <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="-Infinity" End="Infinity" Value="Comment" />
+        </AuditTrailDescription>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" LogToAuditTrail="True" d1p1:Site.Name="btStart" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem9" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <AuditTrailDescription>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="0" End="0" Value="Button Start None Actived" />
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="Button Start Actived" />
+        </AuditTrailDescription>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DataType="DT_BIT" LogToAuditTrail="True" d1p1:Site.Name="btStop" ActionName="" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null">
+            <DataItemNames>
+              <KeyValuePair>
+                <Key>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Controller1" />
+                </Key>
+                <Value>
+                  <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="DataItem10" />
+                </Value>
+              </KeyValuePair>
+            </DataItemNames>
+          </Object>
+        </GlobalDataSubItems>
+        <AuditTrailDescription>
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="0" End="0" Value="Button Stop None Actived" />
+          <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.StringInterval, Common, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Start="1" End="1" Value="Button Stop Actived" />
         </AuditTrailDescription>
       </Object>
     </GlobalDataItems>

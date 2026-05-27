@@ -228,14 +228,29 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Back" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="AnalogNumeric" PropertyName="Prefix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="AnaSetPoint" PropertyName="Prefix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
         </ReferenceValue>
       </Object>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="AnalogNumeric" PropertyName="Suffix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="AnaSetPoint" PropertyName="Suffix" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
         <ReferenceValue>
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="Button1" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Start" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="Button2" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Stop" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="Audit" ObjectName="btAuditRefresh" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Refresh" />
         </ReferenceValue>
       </Object>
     </ResourceItems>
