@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
-<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
-  <Object d1p1:type="Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="TextLibrary" ProjectGuid="6ff5a6ed-02bc-413f-972b-33047a9b4d4e">
-    <Groups>
-      <Object d1p1:type="Neo.ApplicationFramework.Tools.MessageLibrary.MessageGroup, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="Group1" d1p1:Site.Name="Group1" ProjectGuid="6ff5a6ed-02bc-413f-972b-33047a9b4d4e" />
-    </Groups>
-  </Object>
-</NeoItem>

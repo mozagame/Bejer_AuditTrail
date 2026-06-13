@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Configuration>
-  <Controller Name="Controller" IsActive="true" Node="" ServerName="Beijer.InprocessNeo.2" Driver="SIMATIC_S7_ISO_TCP_Pre2.SIMATIC_S7_ISO_TCP_Pre2.1" Url="" DataSourceType="DataSourceOpcClassicInprocess" />
-</Configuration>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
-<nacs:ScreenWindow Title="Screen1" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1920, 1080" PopupScreen="False" StyleName="Default" IsCacheable="True" Width="1920" Height="1080" nai:SecurityProperties.SecurityGroupsRequired="None" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" x:Class="Neo.ApplicationFramework.Generated.Screen1">
-  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1920" Height="1080" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104" />
-</nacs:ScreenWindow>
