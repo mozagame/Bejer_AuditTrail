@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.53.65422.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items>
+        <Item xsi:type="AlarmViewerItem" Target="AlarmScreen.AlarmViewer1" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+      </Items>
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="ChangeActiveControllersAction">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Events">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmScreen.Button5" TargetProperty="Actions" Event="Click" Action="Toggle Tag" />
+      </Items>
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmScreen.Button5" TargetProperty="Actions" Source="Tags.AlarmBit" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyAction">
+      <Items />
+    </Category>
+    <Category Name="LegacyItems">
+      <Items>
+        <Item xsi:type="LegacyItemMetadata" ScreenName="AlarmScreen" ItemName="LegacyScreenObjects">
+          <Details />
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Metadata">
+      <Items>
+        <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects" ScreenName="AlarmScreen" TemplateScreen="PC_backg_h1">
+          <Details>
+            <Detail>
+              <Key>AlarmViewerFX</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Button</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Label</Key>
+              <Value>2</Value>
+            </Detail>
+            <Detail>
+              <Key>SymbolControl</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>DigitalClock</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>Picture</Key>
+              <Value>1</Value>
+            </Detail>
+          </Details>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="MultipleLanguage">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>7</ObjectsCount>
+          <ScreenName>AlarmScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>AlarmScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmScreen.Button5" TargetProperty="Actions" Source="Tags.AlarmBit" Event="Click" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="AlarmScreen.Picture2" Source="warning" Width="36" Height="36" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextIDs">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="WebBrowserSecurity">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

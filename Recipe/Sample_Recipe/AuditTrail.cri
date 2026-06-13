@@ -44,7 +44,7 @@
             </Detail>
             <Detail>
               <Key>MaxDbSize</Key>
-              <Value>5</Value>
+              <Value>10</Value>
             </Detail>
           </Details>
         </Item>

@@ -29,7 +29,7 @@ namespace Neo.ApplicationFramework.Generated
 			// AuditTrail
 			// 
 			this.CyclicLogging = false;
-			this.MaxSize = 5;
+			this.MaxSize = 10;
 			this.SuppressedLogActionNameList.Add("Acknowledge Visible Alarms");
 			this.SuppressedLogActionNameList.Add("Alarm Info");
 			this.SuppressedLogActionNameList.Add("Clear All Alarms");

@@ -20,9 +20,12 @@ namespace Neo.ApplicationFramework.Generated
 		
 		private Neo.ApplicationFramework.Tools.Alarm.AlarmGroup m_Default;
 		
+		private Neo.ApplicationFramework.Tools.Alarm.AlarmItem m_Default_AlarmItem0;
+		
 		public AlarmServer()
 		{
 			this.InitializeComponent();
+			this.Default_AlarmItem0.AlarmEventInfoRequested += new System.EventHandler<Neo.ApplicationFramework.Interfaces.Events.AlarmEventEventArgs>(this.Default_AlarmItem0_Action_AlarmEventInfoRequested);
 			this.ApplyLanguageInternal();
 		}
 		
@@ -38,19 +41,78 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
+		public Neo.ApplicationFramework.Tools.Alarm.AlarmItem Default_AlarmItem0
+		{
+			get
+			{
+				return this.m_Default_AlarmItem0;
+			}
+			set
+			{
+				this.m_Default_AlarmItem0 = value;
+			}
+		}
+		
 		private void InitializeComponent()
 		{
 			this.InitializeObjectCreations();
-			// 
-			// AlarmServer
-			// 
-			// 
-			// Default
-			// 
+			this.InitializeBeginInits();
+			this.InitializeObjects();
+			this.InitializeEndInits();
+			this.ConnectDataBindings();
+		}
+		
+		protected override void Dispose(bool disposing)
+		{
+			base.Dispose(disposing);
+		}
+		
+		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+		public virtual void ConnectDataBindings()
+		{
+			this.Default_AlarmItem0.DataBindings.Add(new Neo.ApplicationFramework.Common.Data.DynamicBinding("Value", ((Neo.ApplicationFramework.Common.Data.RealtimeDataItemProxy)(Neo.ApplicationFramework.Common.Data.DataItemProxyFactory.CreateRealtimeProxy("Tags.AlarmBit"))), "Value", true, System.Windows.Forms.DataSourceUpdateMode.Never, null));
+		}
+		
+		private void InitializeObjectCreations()
+		{
+			this.Default = new Neo.ApplicationFramework.Tools.Alarm.AlarmGroup();
+			this.Default_AlarmItem0 = new Neo.ApplicationFramework.Tools.Alarm.AlarmItem();
+		}
+		
+		private void InitializeBeginInits()
+		{
+			((System.ComponentModel.ISupportInitialize)(this.Default_AlarmItem0)).BeginInit();
+		}
+		
+		private void InitializeEndInits()
+		{
+			((System.ComponentModel.ISupportInitialize)(this.Default_AlarmItem0)).EndInit();
+		}
+		
+		private void InitializeObjects()
+		{
 			this.Default.AcknowledgeBackColor = System.Drawing.Color.Green;
 			this.Default.AcknowledgeForeColor = System.Drawing.Color.Black;
 			this.Default.ActiveBackColor = System.Drawing.Color.Red;
 			this.Default.ActiveForeColor = System.Drawing.Color.Black;
+			this.Default_AlarmItem0.AcknowledgeRequired = true;
+			this.Default_AlarmItem0.ComparerType = Neo.ApplicationFramework.Interfaces.ComparerTypes.NotEqualTo;
+			this.Default_AlarmItem0.Contacts = null;
+			this.Default_AlarmItem0.DefaultText = "Alarm bit is activated";
+			this.Default_AlarmItem0.DisplayName = "AlarmItem0";
+			Neo.ApplicationFramework.Common.Dynamics.DynamicString DynamicString1 = new Neo.ApplicationFramework.Common.Dynamics.DynamicString();
+			DynamicString1.Text = "Alarm bit is activated";
+			this.Default_AlarmItem0.DynamicString = DynamicString1;
+			this.Default_AlarmItem0.EnableDistribution = false;
+			this.Default_AlarmItem0.GroupId = new System.Guid("da035186-bdaf-45fb-8e3d-ccc6634f68c4");
+			this.Default_AlarmItem0.GroupName = "Default";
+			this.Default_AlarmItem0.History = true;
+			this.Default_AlarmItem0.IsDigitalValue = false;
+			this.Default_AlarmItem0.Name = "Default_AlarmItem0";
+			this.Default_AlarmItem0.OutputDevices = null;
+			this.Default_AlarmItem0.RepeatCount = false;
+			this.Default_AlarmItem0.TriggerValue = 0;
+			this.Default.AlarmItems.Add(this.Default_AlarmItem0);
 			this.Default.EnableDistribution = false;
 			this.Default.InactiveBackColor = System.Drawing.Color.Yellow;
 			this.Default.InactiveForeColor = System.Drawing.Color.Black;
@@ -58,6 +120,8 @@ namespace Neo.ApplicationFramework.Generated
 			this.Default.NormalBackColor = System.Drawing.SystemColors.Window;
 			this.Default.NormalForeColor = System.Drawing.Color.Black;
 			this.AlarmGroups.Add(this.Default);
+			this.ExternalAlarmDistribution = false;
+			this.InternalAlarmDistribution = true;
 			this.MaxNumberOfAlarms = 1000;
 			this.StorageEvent.AcknowledgeTime = null;
 			this.StorageEvent.ActiveTime = null;
@@ -75,30 +139,11 @@ namespace Neo.ApplicationFramework.Generated
 			this.StorageEvent.State = Neo.ApplicationFramework.Interfaces.AlarmState.Normal;
 			this.StorageEvent.TableName = "AlarmServer";
 			this.StorageEvent.Text = "";
-			this.ConnectDataBindings();
 		}
 		
-		protected override void Dispose(bool disposing)
+		private void Default_AlarmItem0_Action_AlarmEventInfoRequested(object sender, System.EventArgs e)
 		{
-			base.Dispose(disposing);
-		}
-		
-		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
-		public virtual void ConnectDataBindings()
-		{
-		}
-		
-		private void InitializeObjectCreations()
-		{
-			this.Default = new Neo.ApplicationFramework.Tools.Alarm.AlarmGroup();
-		}
-		
-		private void InitializeBeginInits()
-		{
-		}
-		
-		private void InitializeEndInits()
-		{
+			Neo.ApplicationFramework.Generated.Globals.ScrInfor.Show();
 		}
 		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
@@ -106,6 +151,7 @@ namespace Neo.ApplicationFramework.Generated
 		{
 			Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager resources = new Neo.ApplicationFramework.Tools.MultiLanguage.MultiLanguageResourceManager(typeof(AlarmServer));
 			this.m_Default.Text = resources.GetText("AlarmServer.Default.Text", "Default");
+			this.m_Default_AlarmItem0.StaticText = resources.GetText("AlarmServer.Default_AlarmItem0.StaticText", "Alarm bit is activated");
 		}
 		
 		[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]

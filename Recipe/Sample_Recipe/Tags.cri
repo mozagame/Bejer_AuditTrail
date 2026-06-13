@@ -34,6 +34,7 @@
         <Item Target="Tags" TargetProperty="Temp" Source="Controller1.DataItem8" />
         <Item Target="Tags" TargetProperty="btStart" Source="Controller1.DataItem9" />
         <Item Target="Tags" TargetProperty="btStop" Source="Controller1.DataItem10" />
+        <Item Target="Tags" TargetProperty="AlarmBit" Source="Controller1.DataItem11" />
       </Items>
     </Category>
     <Category Name="InvalidAction">

@@ -193,10 +193,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\AlarmScreen.Script.cs">
+      <Link>AlarmScreen.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AlarmScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Audit.Script.cs">
       <Link>Audit.Script.cs</Link>
       <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Audit.cs</DependentUpon>
     </Compile>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AlarmScreen.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AlarmServer.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Audit.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\AuditTrail.cs" />
@@ -211,6 +216,7 @@
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Recipe1.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Sample_Recipe.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Screen_Security.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScrInfor.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Security.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\SntpClientRootComponent.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Tags.cs" />
@@ -229,6 +235,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\AlarmScreen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Audit.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -239,6 +248,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Screen_Security.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ScrInfor.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

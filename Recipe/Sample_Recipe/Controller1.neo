@@ -16,6 +16,7 @@
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ItemID="D12" DataType="DT_REAL4" d1p1:Site.Name="DataItem8" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ItemID="M50" DataType="DT_BIT" LogToAuditTrail="True" d1p1:Site.Name="DataItem9" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ItemID="M51" DataType="DT_BIT" LogToAuditTrail="True" d1p1:Site.Name="DataItem10" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" ItemID="M100" DataType="DT_BIT" d1p1:Site.Name="DataItem11" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />
     </DataItems>
   </Object>
 </NeoItem>

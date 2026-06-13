@@ -51,6 +51,8 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem btStop;
 		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag AlarmBit;
+		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup1;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup2;
@@ -105,6 +107,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.Temp = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Temp", "Controller1.DataItem8", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_REAL4)), false, "", null);
 			this.btStart = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStart", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
 			this.btStop = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStop", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
+			this.AlarmBit = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("AlarmBit", "Controller1.DataItem11", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), false, "", null);
 			this.PollGroup1 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup2 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup3 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
@@ -149,6 +152,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.LightweightTags.Add(this.Temp);
 			this.GlobalDataItems.Add(this.btStart);
 			this.GlobalDataItems.Add(this.btStop);
+			this.LightweightTags.Add(this.AlarmBit);
 			this.PollGroup1.Interval = 500;
 			this.PollGroup1.Name = "PollGroup1";
 			this.PollGroup2.Interval = 500;

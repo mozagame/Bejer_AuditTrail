@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<nacs:ScreenWindow Top="0" Left="0" Topmost="False" Title="AlarmScreen" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" ScreenTitle="Alarm History" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.Alarm;assembly=Controls" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" x:Class="Neo.ApplicationFramework.Generated.AlarmScreen">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="PC_backg_h1" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
+    <nac:Button CornerRadius="0,0,15,0" ImageHorizontalAlignment="Right" Text="Test Alrm" RequiresTransparency="True" SymbolTransparent="False" BorderBrush="#FF707070" Background="#FF000000" Foreground="#FFFFFFFF" FontSize="22" Name="m_Button5" Width="124.218520639902" Height="44.6666666666667" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" InputMethod.IsInputMethodEnabled="True" Panel.ZIndex="7" Canvas.Left="728.70963407919" Canvas.Top="362.870482284631" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Toggle Tag">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="ToggleTag" ObjectName="Tags.AlarmBit" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nac:Label AutoSize="False" Text="Alarm History" Foreground="#FF000000" FontSize="22" HorizontalContentAlignment="Center" Padding="5.5,0,5.5,1" Name="m_Text7" Width="286.316578581045" Height="34.3933333333334" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="1" Canvas.Left="321.018196211313" Canvas.Top="20.6287105410373">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nacs2:SymbolControl RequiresTransparency="True" ForceTransparency="False" Background="#FFFFFFFF" Name="m_SymbolControl4" Width="332.750829843447" Height="45.2683333333334" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="2" Canvas.Left="651.857737246779" Canvas.Top="15.625377207704">
+      <nacs2:SymbolControl.Template>
+        <ControlTemplate TargetType="nacs2:SymbolControl">
+          <Grid>
+            <nacc:Rectangle Fill="{TemplateBinding BorderBrush}" />
+            <nacc:Rectangle RadiusX="25" RadiusY="25" Fill="#FFFFFFFF" Stroke="#FF000000" />
+            <nacc:Rectangle RadiusX="22" RadiusY="22" Fill="{TemplateBinding Background}" StrokeThickness="10" Margin="4,4,4,4" />
+          </Grid>
+        </ControlTemplate>
+      </nacs2:SymbolControl.Template>
+    </nacs2:SymbolControl>
+    <nac:Label Text="This sample contains scripts" Background="#00FFFFFF" Foreground="#FF000000" FontSize="22" Padding="5.5,0,5.5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="3" Canvas.Left="696.77190042356" Canvas.Top="20.8820438743707">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:DigitalClock DisplayFormat="DateAndTime" ShowSeconds="True" ShowDayOfWeek="False" Background="{x:Null}" Foreground="#FF000000" FontSize="22" Name="m_DigitalClock1" Width="253.326666666667" MinWidth="253.326666666667" Height="30.3933333333334" MinHeight="26.5533333333333" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="4" Canvas.Left="47.9419004235594" Canvas.Top="23.6287105410373" />
+    <nacs2:Picture SymbolName="warning" Name="m_Picture2" Width="36" Height="36" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="5" Canvas.Left="664" Canvas.Top="19" />
+    <naca:AlarmViewerFX ButtonBackground="#FFE2E2E2" ClearButtonIsVisible="False" FilterButtonIsVisible="False" PauseButtonIsVisible="False" ColumnHeadersVisible="True" SummaryRowVisible="True" SortColumn="ActiveTime" SortDirection="Descending" ContextMenusEnabled="False" MaximumAlarmViewerRows="100" SelectedBorderColor="#FF000000" RowHeight="16" ScreenOwnerName="AlarmScreen" ServerAddress="" ServerPort="0" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AlarmViewer1" Width="798.305012442232" Height="614.713304508139" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="65.4661218147036" Canvas.Top="55.7450463931308" Style="{nac1:StyleMarkupExtension Standard}">
+      <naca:AlarmViewerFX.VisibleColumns>
+        <x:Array Type="nai1:IColumnInfo">
+          <nacl:AlarmColumnInfo MappingName="DisplayState" HeaderName="State" ColumnWidth="80" />
+          <nacl:AlarmColumnInfo MappingName="ActiveTime" HeaderName="Active Time" ColumnWidth="150" />
+          <nacl:AlarmColumnInfo MappingName="DisplayText" HeaderName="Text" ColumnWidth="250" />
+          <nacl:AlarmColumnInfo MappingName="AcknowledgeTime" HeaderName="Acknowledged Time" ColumnWidth="125" />
+          <nacl:AlarmColumnInfo MappingName="InActiveTime" HeaderName="Inactive Time" ColumnWidth="125" />
+          <nacl:AlarmColumnInfo MappingName="AlarmItemDisplayName" HeaderName="Name" ColumnWidth="80" />
+        </x:Array>
+      </naca:AlarmViewerFX.VisibleColumns>
+      <naca:AlarmViewerFX.AlarmEventFilter>
+        <nacl:AlarmEventFilter MaximumAlarmRows="100">
+          <nacl:AlarmEventFilter.Groups>
+            <nacl:AlarmEventFilterGroup Name="Default" Enabled="True" ShowActiveAlarms="True" ShowNormalAlarms="True" ShowAcknowlegedAlarms="True" ShowInactiveAlarms="True" />
+          </nacl:AlarmEventFilter.Groups>
+        </nacl:AlarmEventFilter>
+      </naca:AlarmViewerFX.AlarmEventFilter>
+    </naca:AlarmViewerFX>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

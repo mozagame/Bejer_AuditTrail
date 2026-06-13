@@ -27,6 +27,8 @@
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button" TargetProperty="Actions" Event="Click" Action="Show Screen" />
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button1" TargetProperty="Actions" Event="Click" Action="Show Screen" />
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button2" TargetProperty="Actions" Event="Click" Action="Show Screen" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.btAlarm" TargetProperty="Actions" Event="Click" Action="Show Screen" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button3" TargetProperty="Actions" Event="Click" Action="Show Screen" />
       </Items>
     </Category>
     <Category Name="Expression">
@@ -61,7 +63,11 @@
             </Detail>
             <Detail>
               <Key>Button</Key>
-              <Value>3</Value>
+              <Value>5</Value>
+            </Detail>
+            <Detail>
+              <Key>TagMonitorFX</Key>
+              <Value>1</Value>
             </Detail>
           </Details>
         </Item>
@@ -81,8 +87,10 @@
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button" TargetProperty="Actions" Source="Recipe" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button1" TargetProperty="Actions" Source="Screen_Security" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ActionItem" Target="PC_backg_h1.Button2" TargetProperty="Actions" Source="Audit" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.btAlarm" TargetProperty="Actions" Source="AlarmScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="PC_backg_h1.Button3" TargetProperty="Actions" Source="PC_backg_h1" Event="Click" Action="Show Screen" Param="Default" />
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>5</ObjectsCount>
+          <ObjectsCount>8</ObjectsCount>
           <ScreenName>PC_backg_h1</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">

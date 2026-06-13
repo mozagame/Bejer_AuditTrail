@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
+<nacs:ScreenWindow Top="86" Left="73" Topmost="False" Title="ScrInfor" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="496, 298" ScreenPosition="73, 86" ScreenTitle="Information" TemplateScreen="{x:Null}" PopupScreen="True" StyleName="Rounded" IsCacheable="False" Background="#FFD8D8D8" Style="{x:Null}" Width="496" Height="298" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.ScrInfor">
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="496" Height="298" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
+    <nac:Label AutoSize="False" MultiLine="True" WordWrap="True" AutoStretchFont="False" Text="Alarm Information Screen.&#xD;&#xA;&#xD;&#xA;It is possible to show any screen by pressing the INFO button while an alarm is selected. &#xD;&#xA;&#xD;&#xA;Example:&#xD;&#xA;The alarm was activated by a user action.&#xD;&#xA;&#xD;&#xA;Please acknowledge the alarm and reset the alarm signal (press the &quot;Test Alarm&quot; button)." Foreground="#FF000000" FontSize="18" Padding="4.5,0,4.5,1" Name="m_Text1" Width="479.255813953488" Height="354.651395348837" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="2" Canvas.Left="8.97674418604731" Canvas.Top="7.56060536424098">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+      <nac:Label.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform />
+              <RotateTransform />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac:Label.RenderTransform>
+    </nac:Label>
+    <nac:Button CornerRadius="15,15,15,15" ImageStretch="True" ImageHorizontalAlignment="Left" ImageMargin="4,4,4,4" Text="Exit" TextMargin="47,2,2,2" RequiresTransparency="True" SymbolName="close" SymbolTransparent="False" BorderBrush="#FF707070" Background="#FF000000" Foreground="#FFFFFFFF" FontSize="22" Name="m_btnClearAlarms" Width="106" Height="36" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" InputMethod.IsInputMethodEnabled="True" Panel.ZIndex="4" Canvas.Left="360" Canvas.Top="240" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.RenderTransform>
+        <TransformGroup>
+          <TransformGroup.Children>
+            <TransformCollection>
+              <ScaleTransform />
+              <RotateTransform />
+            </TransformCollection>
+          </TransformGroup.Children>
+        </TransformGroup>
+      </nac:Button.RenderTransform>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Close Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Close" ObjectName="GetService&lt;Neo.ApplicationFramework.Interfaces.IScreenManager&gt;()" EventName="Click" ReferenceType="This" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" IsAsync="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

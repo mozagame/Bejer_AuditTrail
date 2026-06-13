@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AlarmSettings>
-  <AlarmClients />
+  <AlarmClients>
+    <AlarmClient ClientID="AlarmScreen.AlarmViewer1" ServerID="" ServerPort="0" MaximumAlarmEvents="100" />
+  </AlarmClients>
   <AlarmServer ServerMode="Local" ServerPort="1000" MaximumAlarmEvents="100" />
 </AlarmSettings>

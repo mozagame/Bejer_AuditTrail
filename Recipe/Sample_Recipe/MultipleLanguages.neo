@@ -253,6 +253,46 @@
           <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Refresh" />
         </ReferenceValue>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmScreen" ObjectName="Button5" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Test Alrm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmScreen" ObjectName="Text7" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm History" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmScreen" ObjectName="Text2" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="This sample contains scripts" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="ScrInfor" ObjectName="Text1" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm Information Screen.&#xD;&#xA;&#xD;&#xA;It is possible to show any screen by pressing the INFO button while an alarm is selected. &#xD;&#xA;&#xD;&#xA;Example:&#xD;&#xA;The alarm was activated by a user action.&#xD;&#xA;&#xD;&#xA;Please acknowledge the alarm and reset the alarm signal (press the &quot;Test Alarm&quot; button)." />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="ScrInfor" ObjectName="btnClearAlarms" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Exit" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="PC_backg_h1" ObjectName="btAlarm" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="AlarmServer" ObjectName="Default_AlarmItem0" PropertyName="StaticText" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Alarm bit is activated" />
+        </ReferenceValue>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.MultiLanguage.DesignerResourceItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" DesignerName="PC_backg_h1" ObjectName="Button3" PropertyName="Text" IsActive="True" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsPublic="True">
+        <ReferenceValue>
+          <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Main" />
+        </ReferenceValue>
+      </Object>
     </ResourceItems>
   </Object>
 </NeoItem>

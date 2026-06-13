@@ -14,7 +14,9 @@
       <Items />
     </Category>
     <Category Name="Events">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer.Default_AlarmItem0" TargetProperty="Action" Event="AlarmEventInfoRequested" Action="Show Screen" />
+      </Items>
     </Category>
     <Category Name="Expression">
       <Items />
@@ -23,7 +25,9 @@
       <Items />
     </Category>
     <Category Name="GlobalDataItem">
-      <Items />
+      <Items>
+        <Item Target="AlarmServer.Default_AlarmItem0" TargetProperty="Value" Source="Tags.AlarmBit" />
+      </Items>
     </Category>
     <Category Name="InvalidAction">
       <Items />
@@ -44,7 +48,7 @@
             </Detail>
             <Detail>
               <Key>TotalAlarmItems</Key>
-              <Value>0</Value>
+              <Value>1</Value>
             </Detail>
           </Details>
         </Item>
@@ -60,13 +64,17 @@
       <Items />
     </Category>
     <Category Name="Screen">
-      <Items />
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer.Default_AlarmItem0" TargetProperty="Action" Source="ScrInfor" Event="AlarmEventInfoRequested" Action="Show Screen" Param="Default" />
+      </Items>
     </Category>
     <Category Name="Script">
       <Items />
     </Category>
     <Category Name="StructuredTag">
-      <Items />
+      <Items>
+        <Item Target="AlarmServer.Default_AlarmItem0" TargetProperty="Value" Source="Tags.AlarmBit" />
+      </Items>
     </Category>
     <Category Name="TextIDs">
       <Items />
