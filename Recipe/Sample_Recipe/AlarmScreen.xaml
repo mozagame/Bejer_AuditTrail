@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?neo version='2.53.65422.0' LastConverterVersion='2.53.8'?>
-<nacs:ScreenWindow Top="0" Left="0" Topmost="False" Title="AlarmScreen" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" ScreenTitle="Alarm History" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.Alarm;assembly=Controls" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" x:Class="Neo.ApplicationFramework.Generated.AlarmScreen">
+<nacs:ScreenWindow Top="0" Left="0" Topmost="False" Title="AlarmScreen" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="1024, 768" ScreenTitle="Alarm History" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="1024" Height="768" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:naca="clr-namespace:Neo.ApplicationFramework.Controls.Alarm;assembly=Controls" xmlns:nai1="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=InterfacesCF" xmlns:nacl="clr-namespace:Neo.ApplicationFramework.Controls.Logic;assembly=ControlsCF" x:Class="Neo.ApplicationFramework.Generated.AlarmScreen">
   <nacs:ScreenWindow.TemplateScreen>
     <nacs1:TemplateScreen Name="PC_backg_h1" RenderMode="Background" />
   </nacs:ScreenWindow.TemplateScreen>
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="AlarmScreen_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
   <nacs:ElementCanvas Name="m_EditorCanvas" Width="1024" Height="768" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Ideal" TextOptions.TextRenderingMode="Auto" Panel.ZIndex="104">
     <nac:Button CornerRadius="0,0,15,0" ImageHorizontalAlignment="Right" Text="Test Alrm" RequiresTransparency="True" SymbolTransparent="False" BorderBrush="#FF707070" Background="#FF000000" Foreground="#FFFFFFFF" FontSize="22" Name="m_Button5" Width="124.218520639902" Height="44.6666666666667" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" InputMethod.IsInputMethodEnabled="True" Panel.ZIndex="7" Canvas.Left="728.70963407919" Canvas.Top="362.870482284631" Style="{nac1:StyleMarkupExtension Glossy}">
       <nac:Button.TextDecorations>
@@ -42,7 +47,7 @@
     </nac:Label>
     <nac:DigitalClock DisplayFormat="DateAndTime" ShowSeconds="True" ShowDayOfWeek="False" Background="{x:Null}" Foreground="#FF000000" FontSize="22" Name="m_DigitalClock1" Width="253.326666666667" MinWidth="253.326666666667" Height="30.3933333333334" MinHeight="26.5533333333333" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="4" Canvas.Left="47.9419004235594" Canvas.Top="23.6287105410373" />
     <nacs2:Picture SymbolName="warning" Name="m_Picture2" Width="36" Height="36" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="5" Canvas.Left="664" Canvas.Top="19" />
-    <naca:AlarmViewerFX ButtonBackground="#FFE2E2E2" ClearButtonIsVisible="False" FilterButtonIsVisible="False" PauseButtonIsVisible="False" ColumnHeadersVisible="True" SummaryRowVisible="True" SortColumn="ActiveTime" SortDirection="Descending" ContextMenusEnabled="False" MaximumAlarmViewerRows="100" SelectedBorderColor="#FF000000" RowHeight="16" ScreenOwnerName="AlarmScreen" ServerAddress="" ServerPort="0" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AlarmViewer1" Width="798.305012442232" Height="614.713304508139" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="65.4661218147036" Canvas.Top="55.7450463931308" Style="{nac1:StyleMarkupExtension Standard}">
+    <naca:AlarmViewerFX ButtonBackground="#FFE2E2E2" AcknowledgeSelectedButtonIsVisible="False" AcknowledgeAllButtonIsVisible="False" ClearButtonIsVisible="False" FilterButtonIsVisible="False" InfoButtonIsVisible="False" PauseButtonIsVisible="False" ColumnHeadersVisible="True" SummaryRowVisible="True" SortColumn="ActiveTime" SortDirection="Descending" ContextMenusEnabled="False" MaximumAlarmViewerRows="100" SelectedBorderColor="#FF000000" RowHeight="16" ScreenOwnerName="AlarmScreen" ServerAddress="" ServerPort="0" Background="#FFFFFFFF" FontFamily="Tahoma" Name="m_AlarmViewer1" Width="798.305012442232" Height="614.713304508139" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="65.4661218147036" Canvas.Top="55.7450463931308" Style="{nac1:StyleMarkupExtension Standard}">
       <naca:AlarmViewerFX.VisibleColumns>
         <x:Array Type="nai1:IColumnInfo">
           <nacl:AlarmColumnInfo MappingName="DisplayState" HeaderName="State" ColumnWidth="80" />
@@ -61,5 +66,15 @@
         </nacl:AlarmEventFilter>
       </naca:AlarmViewerFX.AlarmEventFilter>
     </naca:AlarmViewerFX>
+    <nac:Button Text="TestLogAlarm" RequiresTransparency="True" SymbolTransparent="False" FontSize="15" Name="m_btnTestLog" Width="119.035904728049" Height="68.8005687877711" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="736.011375755421" Canvas.Top="419.738073231426" Style="{nac1:StyleMarkupExtension Default}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnTestLog_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
   </nacs:ElementCanvas>
 </nacs:ScreenWindow>

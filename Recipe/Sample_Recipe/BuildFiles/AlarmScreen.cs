@@ -22,16 +22,10 @@ namespace Neo.ApplicationFramework.Generated
 		{
 			this.DataContext = Globals.Instance;
 			this.InitializeComponent();
+			this.Adapter.Opened += new System.EventHandler(this.AlarmScreen_Opened);
+			this.btnTestLog.Click += new System.EventHandler(this.btnTestLog_Click);
 			this.ApplyLanguageInternal();
 			this.m_Button5.Click += new System.Windows.RoutedEventHandler(this.m_Button5_Action_Click);
-		}
-		
-		public Neo.ApplicationFramework.Controls.Script.AlarmViewerAdapter AlarmViewer1
-		{
-			get
-			{
-				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.AlarmViewerAdapter>(this.m_AlarmViewer1);
-			}
 		}
 		
 		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter Button5
@@ -82,6 +76,22 @@ namespace Neo.ApplicationFramework.Generated
 			}
 		}
 		
+		public Neo.ApplicationFramework.Controls.Script.AlarmViewerAdapter AlarmViewer1
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.AlarmViewerAdapter>(this.m_AlarmViewer1);
+			}
+		}
+		
+		protected Neo.ApplicationFramework.Controls.Script.ButtonAdapter btnTestLog
+		{
+			get
+			{
+				return this.AdapterService.CreateAdapter<Neo.ApplicationFramework.Controls.Script.ButtonAdapter>(this.m_btnTestLog);
+			}
+		}
+		
 		protected override Neo.ApplicationFramework.Common.Alias.Entities.AliasInstancesCF CreateInstanceData()
 		{
 			System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF> instanceList = new System.Collections.Generic.List<Neo.ApplicationFramework.Common.Alias.Entities.AliasInstanceCF>(1);
@@ -110,6 +120,7 @@ namespace Neo.ApplicationFramework.Generated
 			this.m_Button5.Text = resources.GetText("AlarmScreen.Button5.Text", "Test Alrm");
 			this.m_Text7.Text = resources.GetText("AlarmScreen.Text7.Text", "Alarm History");
 			this.m_Text2.Text = resources.GetText("AlarmScreen.Text2.Text", "This sample contains scripts");
+			this.m_btnTestLog.Text = resources.GetText("AlarmScreen.btnTestLog.Text", "TestLogAlarm");
 			this.ApplyResourcesOnWindow();
 		}
 		

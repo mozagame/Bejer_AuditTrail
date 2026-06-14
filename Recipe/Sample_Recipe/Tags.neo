@@ -303,6 +303,56 @@
           </Object>
         </GlobalDataSubItems>
       </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Current batch number" GlobalDataType="DT_STRING" d1p1:Site.Name="Batch_CurrentNumber" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Batch start time" GlobalDataType="DT_DATETIME" d1p1:Site.Name="Batch_StartTime" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Batch end time" GlobalDataType="DT_DATETIME" d1p1:Site.Name="Batch_EndTime" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Batch is active" GlobalDataType="DT_BIT" d1p1:Site.Name="Batch_IsActive" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Total quantity" GlobalDataType="DT_INTEGER4" d1p1:Site.Name="Batch_TotalQty" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Rejected quantity" GlobalDataType="DT_INTEGER4" d1p1:Site.Name="Batch_RejectedQty" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Report ready" GlobalDataType="DT_BIT" d1p1:Site.Name="Batch_ReportReady" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Total alarms" GlobalDataType="DT_INTEGER2" d1p1:Site.Name="Batch_TotalAlarms" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Critical count" GlobalDataType="DT_INTEGER2" d1p1:Site.Name="Batch_CriticalAlarms" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Description="Warning count" GlobalDataType="DT_INTEGER2" d1p1:Site.Name="Batch_WarningAlarms" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" IsExposed="False">
+        <GlobalDataSubItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.GlobalDataSubItem, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" />
+        </GlobalDataSubItems>
+      </Object>
     </GlobalDataItems>
     <PollGroups>
       <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.PollGroup, ToolsCF, Version=2.53.65422.0, Culture=neutral, PublicKeyToken=null" Name="PollGroup1" Interval="500" d1p1:Site.Name="PollGroup1" ProjectGuid="4f6829d4-c73e-4987-9813-14f0d4256bd3" />

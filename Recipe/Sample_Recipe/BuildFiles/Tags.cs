@@ -53,6 +53,26 @@ namespace Neo.ApplicationFramework.Generated
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag AlarmBit;
 		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_CurrentNumber;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_StartTime;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_EndTime;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_IsActive;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_TotalQty;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_RejectedQty;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_ReportReady;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_TotalAlarms;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_CriticalAlarms;
+		
+		public Neo.ApplicationFramework.Tools.OpcClient.LightweightTag Batch_WarningAlarms;
+		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup1;
 		
 		public Neo.ApplicationFramework.Tools.OpcClient.PollGroup PollGroup2;
@@ -108,6 +128,16 @@ namespace Neo.ApplicationFramework.Generated
 			this.btStart = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStart", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
 			this.btStop = new Neo.ApplicationFramework.Tools.OpcClient.GlobalDataItem("btStop", ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), ((short)(1)), 0D, 1D, ((short)(0)), true, "Value Change", ((Core.Api.DataSource.AccessRights)((Core.Api.DataSource.AccessRights.Read | Core.Api.DataSource.AccessRights.Write))), "PollGroup1", false, false, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DEFAULT)), "", ((short)(1)), "", "");
 			this.AlarmBit = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("AlarmBit", "Controller1.DataItem11", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), false, "", null);
+			this.Batch_CurrentNumber = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_CurrentNumber", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_STRING)), false, "Current batch number", null);
+			this.Batch_StartTime = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_StartTime", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DATETIME)), false, "Batch start time", null);
+			this.Batch_EndTime = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_EndTime", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_DATETIME)), false, "Batch end time", null);
+			this.Batch_IsActive = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_IsActive", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), false, "Batch is active", null);
+			this.Batch_TotalQty = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_TotalQty", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER4)), false, "Total quantity", null);
+			this.Batch_RejectedQty = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_RejectedQty", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER4)), false, "Rejected quantity", null);
+			this.Batch_ReportReady = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_ReportReady", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_BIT)), false, "Report ready", null);
+			this.Batch_TotalAlarms = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_TotalAlarms", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), false, "Total alarms", null);
+			this.Batch_CriticalAlarms = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_CriticalAlarms", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), false, "Critical count", null);
+			this.Batch_WarningAlarms = new Neo.ApplicationFramework.Tools.OpcClient.LightweightTag("Batch_WarningAlarms", "", 500, ((Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE)(Neo.ApplicationFramework.Interop.DataSource.BEDATATYPE.DT_INTEGER2)), false, "Warning count", null);
 			this.PollGroup1 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup2 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
 			this.PollGroup3 = new Neo.ApplicationFramework.Tools.OpcClient.PollGroup();
@@ -153,6 +183,16 @@ namespace Neo.ApplicationFramework.Generated
 			this.GlobalDataItems.Add(this.btStart);
 			this.GlobalDataItems.Add(this.btStop);
 			this.LightweightTags.Add(this.AlarmBit);
+			this.LightweightTags.Add(this.Batch_CurrentNumber);
+			this.LightweightTags.Add(this.Batch_StartTime);
+			this.LightweightTags.Add(this.Batch_EndTime);
+			this.LightweightTags.Add(this.Batch_IsActive);
+			this.LightweightTags.Add(this.Batch_TotalQty);
+			this.LightweightTags.Add(this.Batch_RejectedQty);
+			this.LightweightTags.Add(this.Batch_ReportReady);
+			this.LightweightTags.Add(this.Batch_TotalAlarms);
+			this.LightweightTags.Add(this.Batch_CriticalAlarms);
+			this.LightweightTags.Add(this.Batch_WarningAlarms);
 			this.PollGroup1.Interval = 500;
 			this.PollGroup1.Name = "PollGroup1";
 			this.PollGroup2.Interval = 500;

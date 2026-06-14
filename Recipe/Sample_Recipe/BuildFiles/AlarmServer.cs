@@ -104,13 +104,13 @@ namespace Neo.ApplicationFramework.Generated
 			DynamicString1.Text = "Alarm bit is activated";
 			this.Default_AlarmItem0.DynamicString = DynamicString1;
 			this.Default_AlarmItem0.EnableDistribution = false;
-			this.Default_AlarmItem0.GroupId = new System.Guid("da035186-bdaf-45fb-8e3d-ccc6634f68c4");
+			this.Default_AlarmItem0.GroupId = new System.Guid("6b344737-6f50-4e1d-af07-2f56f755e1c9");
 			this.Default_AlarmItem0.GroupName = "Default";
 			this.Default_AlarmItem0.History = true;
 			this.Default_AlarmItem0.IsDigitalValue = false;
 			this.Default_AlarmItem0.Name = "Default_AlarmItem0";
 			this.Default_AlarmItem0.OutputDevices = null;
-			this.Default_AlarmItem0.RepeatCount = false;
+			this.Default_AlarmItem0.RepeatCount = true;
 			this.Default_AlarmItem0.TriggerValue = 0;
 			this.Default.AlarmItems.Add(this.Default_AlarmItem0);
 			this.Default.EnableDistribution = false;

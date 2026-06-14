@@ -182,6 +182,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ReferencedAssembly\System.Data.SQLite.dll">
+      <HintPath>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ReferencedAssembly\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="Extensions">
       <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2.53\Bin\Extensions\Extensions.dll</HintPath>
     </Reference>
@@ -217,6 +220,8 @@
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Sample_Recipe.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Screen_Security.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScrInfor.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScriptModule1.cs" />
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScriptModuleAuditTrail.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Security.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\SntpClientRootComponent.cs" />
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Tags.cs" />
@@ -231,6 +236,18 @@
     <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Screen_Security.Script.cs">
       <Link>Screen_Security.Script.cs</Link>
       <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Screen_Security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ScriptModule1.Script.cs">
+      <Link>ScriptModule1.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScriptModule1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\ScriptModuleAuditTrail.Script.cs">
+      <Link>ScriptModuleAuditTrail.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\ScriptModuleAuditTrail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\Tags.Script.cs">
+      <Link>Tags.Script.cs</Link>
+      <DependentUpon>D:\02_Andro\2026\Chi Trung\01_Git\BejerAudit\Bejer_AuditTrail\Recipe\Sample_Recipe\BuildFiles\Tags.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

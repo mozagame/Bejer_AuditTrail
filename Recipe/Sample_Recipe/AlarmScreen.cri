@@ -58,12 +58,8 @@
         <Item xsi:type="DesignerProjectItemMetadata" ItemName="ScreenObjects" ScreenName="AlarmScreen" TemplateScreen="PC_backg_h1">
           <Details>
             <Detail>
-              <Key>AlarmViewerFX</Key>
-              <Value>1</Value>
-            </Detail>
-            <Detail>
               <Key>Button</Key>
-              <Value>1</Value>
+              <Value>2</Value>
             </Detail>
             <Detail>
               <Key>Label</Key>
@@ -79,6 +75,10 @@
             </Detail>
             <Detail>
               <Key>Picture</Key>
+              <Value>1</Value>
+            </Detail>
+            <Detail>
+              <Key>AlarmViewerFX</Key>
               <Value>1</Value>
             </Detail>
           </Details>
@@ -97,7 +97,7 @@
     <Category Name="Screen">
       <Items>
         <Item xsi:type="ScreenObjectsCrossReferenceItem">
-          <ObjectsCount>7</ObjectsCount>
+          <ObjectsCount>8</ObjectsCount>
           <ScreenName>AlarmScreen</ScreenName>
         </Item>
         <Item xsi:type="ScreenIDItem" ScreenID="">

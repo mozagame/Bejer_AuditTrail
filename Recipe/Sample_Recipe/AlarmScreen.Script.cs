@@ -1,67 +1,55 @@
 //--------------------------------------------------------------
-// Press F1 to get help about using script.
-// To access an object that is not located in the current class, start the call with Globals.
-// When using events and timers be cautious not to generate memoryleaks,
-// please see the help for more information.
+// AlarmScreen.Script.cs
 //---------------------------------------------------------------
-	
-    /*
-	*******************************************************************
-	All examples in this support document are only intended
-	to improve understanding of the functionality and 
-	handling of the equipment. 
-	Beijer Electronics AB cannot assume any liability if these
-	examples are used in real applications.
-	In view of the wide range of applications for this 
-	equipment, users must acquire sufficient knowledge 
-	themselves in order to ensure that it is correctly used in 
-	their specific application. Persons responsible for the 
-	application and the equipment must themselves 
-	ensure that each application is in compliance with all 
-	relevant requirements, standards and legislation in 
-	respect to configuration and safety.
-	Beijer Electronics AB will accept no liability for any 
-	damage incurred during the installation or use of this 
-	equipment.
-	Beijer Electronics AB prohibits all modification, changes
-	or conversion of the equipment.
-	*******************************************************************
-	*/
 
 namespace Neo.ApplicationFramework.Generated
 {
-    using System.Windows.Forms;
-    using System;
-    using System.Drawing;
-    using Neo.ApplicationFramework.Tools;
-    using Neo.ApplicationFramework.Common.Graphics.Logic;
-    using Neo.ApplicationFramework.Controls;
-    using Neo.ApplicationFramework.Interfaces;
+	using System.Windows.Forms;
+	using System;
+	using System.Drawing;
+	using Neo.ApplicationFramework.Tools;
+	using Neo.ApplicationFramework.Common.Graphics.Logic;
+	using Neo.ApplicationFramework.Controls;
+	using Neo.ApplicationFramework.Interfaces;
     
     
-    public partial class AlarmScreen
-    {		
+	public partial class AlarmScreen
+	{
+		// === THÊM: Declare audit module instance ===
+		ScriptModuleAuditTrail audit = new ScriptModuleAuditTrail();
+
+		// === THÊM: Handler khi screen load ===
+		void AlarmScreen_Opened(System.Object sender, System.EventArgs e)
+		{
+			// Initialize database on screen load
+			audit.Initialize();
+		}
+
+		// === GIỮ NGUYÊN: Các handler cũ ===
 		void btnAckAll_Click(System.Object sender, System.EventArgs e)
 		{
 			AlarmViewer1.AcknowledgeAll();	
 		}
-		
+
 		void btnAckSel_Click(System.Object sender, System.EventArgs e)
 		{
 			AlarmViewer1.AcknowledgeSelected();	
 		}
-		
-		void btnClearAlarms_Click(System.Object sender, System.EventArgs e)
-		{
-			AlarmViewer1.ClearNormalAlarms();			
-		}
-		
+
 		void btnInfo_Click(System.Object sender, System.EventArgs e)
 		{
 			AlarmViewer1.ShowInfo();
 		}
-		
-	
-    }
 
+		// === THÊM (optional): Test logging ===
+		void btnTestLog_Click(System.Object sender, System.EventArgs e)
+		{
+			// Test logging 
+			audit.LogEvent("Test", "TestEvent", "Admin", "Test log entry 1", "BATCH-001", "");
+			audit.LogEvent("Test", "TestEvent", "Admin", "Test log entry 2", "BATCH-001", "ALM-001");
+        
+			MessageBox.Show("Test logs recorded!");
+		}
+				
+	}
 }
